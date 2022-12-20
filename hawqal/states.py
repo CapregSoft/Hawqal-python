@@ -17,3 +17,5 @@ class StatesByCountry:
             for row in data:
                 states.append(f'{row[0]}')
         return states
+
+print(StatesByCountry.getStates("united states"))

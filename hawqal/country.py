@@ -16,5 +16,3 @@ class Country:
                 countries.append(f'{row[1]}')
         return countries
 
-
-Country.getCountries()
