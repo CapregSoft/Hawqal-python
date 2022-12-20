@@ -19,4 +19,13 @@ setup(
     url="https://github.com/CapregSoft/Hawqal-python.git",
     packages=['hawqal'],
     long_description=read('README.md'),
+    keywords = ['capregsoft','hawqal','world data','states'],
+    classifiers = [
+        "Development Status :: 1 - Planning",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
+        "Operating System :: Unix",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows"
+    ]
 )
