@@ -1,4 +1,5 @@
 from dal.dao import Database
+import os
 
 
 class Country:
@@ -6,7 +7,8 @@ class Country:
     @staticmethod
     def getCountries():
         countries = []
-        file_name = "/hawqal/database/hawqalDB.sqlite"
+        dirname = os.path.dirname(__file__)
+        file_name = os.path.join(dirname, '../database\hawqalDB.sqlite')
         with open(file_name, 'r', encoding="utf8") as db:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
@@ -14,5 +16,8 @@ class Country:
                 f"SELECT * FROM countries ORDER BY country_id ASC")
             for row in data:
                 countries.append(f'{row[1]}')
+        print(countries)
         return countries
 
+
+Country.getCountries()

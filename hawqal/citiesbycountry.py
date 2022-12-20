@@ -1,5 +1,6 @@
 from dal.dao import Database
 import string
+import os
 
 
 class CitiesByCountry:
@@ -8,7 +9,8 @@ class CitiesByCountry:
     def getCities(country):
         states = []
         country = string.capwords(country)
-        file_name = "/hawqal/database/hawqalDB.sqlite"
+        dirname = os.path.dirname(__file__)
+        file_name = os.path.join(dirname, '../database\hawqalDB.sqlite')
         with open(file_name, 'r', encoding="utf8") as db:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
