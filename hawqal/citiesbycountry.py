@@ -10,7 +10,7 @@ class CitiesByCountry:
         states = []
         country = string.capwords(country)
         dirname = os.path.dirname(__file__)
-        file_name = os.path.join(dirname, '../database\hawqalDB.sqlite')
+        file_name = os.path.join(dirname, '..', 'database', 'hawqalDB.sqlite')
         with open(file_name, 'r', encoding="utf8") as db:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()

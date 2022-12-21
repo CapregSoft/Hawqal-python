@@ -28,8 +28,6 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST.in
-
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -169,3 +167,4 @@ poetry.toml
 
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+main.py
