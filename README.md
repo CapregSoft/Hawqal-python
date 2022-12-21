@@ -11,6 +11,21 @@ Python package that contains the data of world's countries,states and their citi
 - Get State By Country
 - Get Cities By Country
 
+## Installation Guide
+
+- windows
+
+```python
+pip install hawqal
+
+```
+
+- Unix/macOS
+
+```
+python3 -m pip install hawqal
+```
+
 ## Usage/Examples
 
 ```python
