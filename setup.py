@@ -8,7 +8,7 @@ def read(fname):
 
 
 setup(
-    name="hawqal-python",
+    name="hawqal",
     version="0.1.5.8",
     description="Python package that contains the data of world's countries,states and their cities name",
     long_description_content_type="text/markdown",
