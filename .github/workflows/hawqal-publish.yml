@@ -1,3 +1,5 @@
+include: ".github\workflows\.pypirc"
+
 name: Upload Python Package
 
 on:
@@ -17,8 +19,8 @@ jobs:
           pip install setuptools wheel twine
       - name: Build and publish
         env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+          TWINE_USERNAME: username 
+          TWINE_PASSWORD: password
         run: |
           python setup.py sdist bdist_wheel
           twine upload dist/*
