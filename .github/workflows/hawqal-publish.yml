@@ -22,6 +22,7 @@ jobs:
 
       - name: Build and Publish
         env:
+        TWINE_TOKEN: ${{secrets.AUTH_TOKEN}}
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME}}
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD}}
         run: |
