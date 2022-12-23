@@ -1,8 +1,7 @@
 import unittest
 from hawqal.country import Country
-from hawqal.states import StatesByCountry
+from hawqal.states import States
 from hawqal.cities import City
-from hawqal.citiesbycountry import CitiesByCountry
 
 
 class TestFunc(unittest.TestCase):
@@ -11,15 +10,13 @@ class TestFunc(unittest.TestCase):
         self.assertEqual(len(Country.getCountries()), 250)
 
     def test_getStates(self):
-        self.assertEqual(len(StatesByCountry.getStates("Pakistan")), 8)
+        self.assertEqual(len(States.getStates()), 4989)
+        self.assertEqual(len(States.getStates("pakistan")), 8)
 
     def test_getCities(self):
-        self.assertEqual(len(City.getCities("Pakistan", "Punjab")), 214)
-
-    def test_getCitiesByCountry(self):
-        expected = len(CitiesByCountry.getCities("Pakistan"))
-        self.assertEqual(
-            len(CitiesByCountry.getCities("Pakistan")), expected)
+        self.assertEqual(len(City.getCities()), 150710)
+        self.assertEqual(len(City.getCities("pakistan")), 458)
+        self.assertEqual(len(City.getCities("", "sindh")), 119)
 
 
 if __name__ == '__main__':

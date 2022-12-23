@@ -2,46 +2,72 @@
 
 # Hawqal
 
-Python package that contains the data of world's countries,states and their cities name
+```
+Python package that contains the data of countries, states
+and their cities. Now it's easy for the end-user to get all
+the data by just calling the relevant functions
+```
 
 ## Functions
 
-- Get Countries
-- Get Cities By State
-- Get State By Country
-- Get Cities By Country
+- getCountries( )
+- getStates( )
+- getCities( )
 
 ## Installation Guide
 
 - windows
 
-```python
-pip install hawqal
+  ```
+  pip install hawqal
 
-```
+  ```
 
 - Unix/macOS
 
-```
-python3 -m pip install hawqal
-```
+  ```
+  python3 -m pip install hawqal
+  ```
+
+- Latest Version
+
+  ```
+  pip install --upgrade hawqal
+
+  ```
 
 ## Usage/Examples
 
-```python
-from hawqal.country import Country
-Country.getCountries()
-
-from hawqal.cities import City
-City.getCities("countries name", "state")
-
-from hawqal.states import StatesByCountry
-StatesByCountry.getStates()
-
-from hawqal.citiesbycountry import CitiesByCountry
-CitiesByCountry.getCities("country name")
-
-```
+- Returns countries
+  ```python
+  from hawqal.country import Country
+  Country.getCountries()
+  ```
+- Returns cities
+  ```python
+  from hawqal.cities import City
+  City.getCities()
+  ```
+- Returns cities by country
+  ```python
+  from hawqal.cities import City
+  City.getCities("countries name")
+  ```
+- Returns cities by state
+  ```python
+  from hawqal.cities import City
+  City.getCities("", "state")
+  ```
+- Returns states
+  ```python
+  from hawqal.states import StatesByCountry
+  StatesByCountry.getStates()
+  ```
+- Returns states by country
+  ```python
+  from hawqal.states import StatesByCountry
+  StatesByCountry.getStates("country name")
+  ```
 
 ## Success Response
 
@@ -54,7 +80,7 @@ CitiesByCountry.getCities("country name")
 
 ## Tech Stack
 
-**Client:** Python 3.10.9
+**Language:** Python 3.10.9
 
 ## Authors
 

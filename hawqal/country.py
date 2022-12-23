@@ -6,8 +6,8 @@ class Country:
 
     @staticmethod
     def getCountries():
-        countries = []
 
+        countries = []
         dirname = os.path.dirname(__file__)
         file_name = os.path.join(dirname, '..', 'database', 'hawqalDB.sqlite')
         with open(file_name, 'r', encoding="utf8") as db:
