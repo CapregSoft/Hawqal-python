@@ -2,11 +2,9 @@
 
 # Hawqal
 
-```
 Python package that contains the data of countries, states
 and their cities. Now it's easy for the end-user to get all
 the data by just calling the relevant functions
-```
 
 ## Functions
 
