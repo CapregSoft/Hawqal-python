@@ -69,12 +69,12 @@ the data by just calling the relevant functions
 - Returns currency, currency name, currency symbol of all countries
   ```python
   from hawqal.currency import Currency
-  print(City.getCities())
+  print(Country.getCurrency())
   ```
 - Returns currency, currency name, currency symbol by country
   ```python
   from hawqal.currency import Currency
-  print(City.getCities("country name"))
+  print(Country.getCurrency("country name"))
   ```
 
 ## Success Response
