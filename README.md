@@ -39,32 +39,32 @@ the data by just calling the relevant functions
 - Returns countries
   ```python
   from hawqal.country import Country
-  Country.getCountries()
+  print(Country.getCountries())
   ```
 - Returns cities
   ```python
   from hawqal.cities import City
-  City.getCities()
+  print(City.getCities())
   ```
 - Returns cities by country
   ```python
   from hawqal.cities import City
-  City.getCities("countries name")
+  print(City.getCities("countries name"))
   ```
 - Returns cities by state
   ```python
   from hawqal.cities import City
-  City.getCities("", "state")
+  print(City.getCities("", "state"))
   ```
 - Returns states
   ```python
   from hawqal.states import StatesByCountry
-  StatesByCountry.getStates()
+  print(StatesByCountry.getStates())
   ```
 - Returns states by country
   ```python
   from hawqal.states import StatesByCountry
-  StatesByCountry.getStates("country name")
+  print(StatesByCountry.getStates("country name"))
   ```
 
 ## Success Response
