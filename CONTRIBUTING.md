@@ -4,7 +4,7 @@ Thanks for considering contributing to Hawqal! We welcome contributions of all k
 
 ## Code of conduct
 
-We have a code of conduct that all contributors are expected to follow. Please make sure you read and understand it before making any contributions. You can find it here: [CODE_OF_CONDUCT.md](https://github.com/CapregSoft/Hawqal-python/blob/master/CODE_OF_CONDUCT.md)
+We have a code of conduct that all contributors are expected to follow. Please make sure you read and understand it before making any contributions. You can find it here: [CODE_OF_CONDUCT.md](https://github.com/CapregSoft/Hawqal-python/blob/husnain/hawqal-github-action/CODE_OF_CONDUCT.md)
 
 ## Reporting bugs or issues
 
