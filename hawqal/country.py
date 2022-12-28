@@ -14,7 +14,7 @@ class Country:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
             data = cursor.execute(
-                f"SELECT * FROM countries ORDER BY country_id ASC")
+                f"SELECT * FROM countries ORDER BY country_name ASC")
             for row in data:
-                countries.append(f'{row[1]}')
+                countries.append(f'{row[0]}')
         return countries

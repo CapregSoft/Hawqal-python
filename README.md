@@ -66,6 +66,16 @@ the data by just calling the relevant functions
   from hawqal.states import StatesByCountry
   print(StatesByCountry.getStates("country name"))
   ```
+- Returns currency, currency name, currency symbol of all countries
+  ```python
+  from hawqal.currency import Currency
+  print(City.getCities())
+  ```
+- Returns currency, currency name, currency symbol by country
+  ```python
+  from hawqal.currency import Currency
+  print(City.getCities("country name"))
+  ```
 
 ## Success Response
 

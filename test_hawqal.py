@@ -2,6 +2,7 @@ import unittest
 from hawqal.country import Country
 from hawqal.states import States
 from hawqal.cities import City
+from hawqal.currency import Currency
 
 
 class TestFunc(unittest.TestCase):
@@ -17,6 +18,10 @@ class TestFunc(unittest.TestCase):
         self.assertEqual(len(City.getCities()), 150710)
         self.assertEqual(len(City.getCities("pakistan")), 458)
         self.assertEqual(len(City.getCities("", "sindh")), 119)
+
+    def test_getCurrency(self):
+        self.assertEqual(len(Currency.getCurrency()), 250)
+        self.assertEqual(len(Currency.getCurrency("Pakistan")), 3)
 
 
 if __name__ == '__main__':
