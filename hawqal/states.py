@@ -7,30 +7,25 @@ class States:
 
     @staticmethod
     def getStates(country=""):
+        dirname = os.path.dirname(__file__)
+        file_name = os.path.join(
+            dirname, '..', 'database', 'hawqalDB.sqlite')
         if country == "":
             states = []
-            dirname = os.path.dirname(__file__)
-            file_name = os.path.join(
-                dirname, '..', 'database', 'hawqalDB.sqlite')
             with open(file_name, 'r', encoding="utf8") as db:
                 database = Database(file_name).makeConnection()
                 cursor = database.cursor()
                 data = cursor.execute(
-                    f'SELECT name FROM states')
-                for row in data:
-                    states.append(f'{row[0]}')
+                    'SELECT name FROM states')
+                states = [row[0] for row in data]
             return states
         else:
             states = []
             country = string.capwords(country)
-            dirname = os.path.dirname(__file__)
-            file_name = os.path.join(
-                dirname, '..', 'database', 'hawqalDB.sqlite')
             with open(file_name, 'r', encoding="utf8") as db:
                 database = Database(file_name).makeConnection()
                 cursor = database.cursor()
                 data = cursor.execute(
                     f'SELECT name FROM states WHERE country_name = "{country}"')
-                for row in data:
-                    states.append(f'{row[0]}')
+                states = [row[0] for row in data]
             return states

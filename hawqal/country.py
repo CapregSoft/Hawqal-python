@@ -6,7 +6,6 @@ class Country:
 
     @staticmethod
     def getCountries():
-
         countries = []
         dirname = os.path.dirname(__file__)
         file_name = os.path.join(dirname, '..', 'database', 'hawqalDB.sqlite')
@@ -14,7 +13,6 @@ class Country:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
             data = cursor.execute(
-                f"SELECT * FROM countries ORDER BY country_id ASC")
-            for row in data:
-                countries.append(f'{row[1]}')
+                "SELECT * FROM countries ORDER BY country_id ASC")
+            countries = [row[1] for row in data.fetchall()]
         return countries
