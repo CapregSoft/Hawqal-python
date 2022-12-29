@@ -31,6 +31,4 @@ class City:
         elif country == "" and state != "":
             data = cursor.execute(
                 f"SELECT cities.city_name FROM cities,states WHERE cities.state_id == states.state_id AND states.state_name == '{state}'")
-            for city in list(data):
-                cities.append(*city)
-            return cities
+            return [city for city in data]
