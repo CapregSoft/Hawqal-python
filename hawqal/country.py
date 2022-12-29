@@ -25,6 +25,7 @@ class Country:
         countries = []
         dirname = os.path.dirname(__file__)
         file_name = os.path.join(dirname, '..', 'database', 'hawqalDB.sqlite')
+        country = string.capwords(country)
         with open(file_name, 'r', encoding="utf8") as db:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
@@ -33,15 +34,14 @@ class Country:
                 f"SELECT country_name FROM countries ORDER BY country_name ASC")
             countries = [country[0] for country in list(data)]
             return countries
-        elif type(country) == type({}):
-            meta, country = country, ""
-            selectedFields = filterFields(meta)
-            data = cursor.execute(
-                f'SELECT country_name,{selectedFields} FROM countries')
-            return [list(country) for country in data]
         elif (country != "" and len(meta) > 0):
-            country = string.capwords(country)
             selectedFields = filterFields(meta)
             data = cursor.execute(
                 f'SELECT country_name,{selectedFields} FROM countries WHERE country_name = "{country}"')
             return [list(country) for country in data][0]
+        elif (country == "" and len(meta) > 0):
+            selectedFields = filterFields(meta)
+            data = cursor.execute(
+                f"SELECT country_name,{selectedFields} FROM countries ORDER BY country_name ASC")
+            countries = [list(country) for country in list(data)]
+            return countries
