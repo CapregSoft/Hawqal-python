@@ -8,6 +8,8 @@ class TestFunc(unittest.TestCase):
 
     def test_getCountries(self):
         self.assertEqual(len(Country.getCountries()), 250)
+        self.assertEqual(len(Country.getCountries(
+            "pakistan", {"coordinates": True})), 3)
 
     def test_getStates(self):
         self.assertEqual(len(States.getStates()), 4989)
@@ -16,11 +18,6 @@ class TestFunc(unittest.TestCase):
     def test_getCities(self):
         self.assertEqual(len(City.getCities()), 150710)
         self.assertEqual(len(City.getCities("pakistan")), 458)
-        self.assertEqual(len(City.getCities("", "sindh")), 119)
-
-    def test_getCurrency(self):
-        self.assertEqual(len(Country.getCurrency()), 250)
-        self.assertEqual(len(Country.getCurrency("Pakistan")), 3)
 
 
 if __name__ == '__main__':

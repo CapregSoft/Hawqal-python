@@ -3,45 +3,45 @@ import os
 import string
 
 
+def filterFields(meta):
+    fields = ''
+    keyArrtibutes = {
+        "coordinates": 'latitude,longitude',
+        "region": 'region,subregion',
+        "currency": 'currency,currency_name,currency_symbol',
+        "timezone": 'timezone,zone_city,UTC',
+        "capital": 'country_name,country_domain,phone_code,iso_code'
+    }
+    for key, value in meta.items():
+        if value:
+            fields = fields + keyArrtibutes[key]+','
+    return fields[:-1]
+
+
 class Country:
 
     @staticmethod
-    def getCountries():
-
+    def getCountries(country='', meta={}):
         countries = []
         dirname = os.path.dirname(__file__)
         file_name = os.path.join(dirname, '..', 'database', 'hawqalDB.sqlite')
         with open(file_name, 'r', encoding="utf8") as db:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
+        if country == "" and len(meta) == 0:
             data = cursor.execute(
-                f"SELECT * FROM countries ORDER BY country_name ASC")
-            for row in data:
-                countries.append(f'{row[0]}')
-        return countries
-
-    @staticmethod
-    def getCurrency(country=""):
-        currency = []
-        country = string.capwords(country)
-        dirname = os.path.dirname(__file__)
-        file_name = os.path.join(
-            dirname, '..', 'database', 'hawqalDB.sqlite')
-        with open(file_name, 'r', encoding="utf8") as db:
-            database = Database(file_name).makeConnection()
-            cursor = database.cursor()
-        if country == "":
+                f"SELECT country_name FROM countries ORDER BY country_name ASC")
+            countries = [country[0] for country in list(data)]
+            return countries
+        elif type(country) == type({}):
+            meta, country = country, ""
+            selectedFields = filterFields(meta)
             data = cursor.execute(
-                f"SELECT country_name,currency,currency_name,currency_symbol FROM countries ORDER BY country_name ASC")
-            for row in data:
-                currency.append([f"{row[0]}", f"{row[1]}",
-                                f"{row[2]}", f"{row[3]}"])
-            return currency
-        else:
+                f'SELECT country_name,{selectedFields} FROM countries')
+            return [list(country) for country in data]
+        elif (country != "" and len(meta) > 0):
+            country = string.capwords(country)
+            selectedFields = filterFields(meta)
             data = cursor.execute(
-                f"SELECT currency,currency_name,currency_symbol FROM countries WHERE country_name = '{country}' ORDER BY country_name ASC")
-            for row in data:
-                for index, _ in enumerate(row):
-                    currency.append(row[index])
-
-            return currency
+                f'SELECT country_name,{selectedFields} FROM countries WHERE country_name = "{country}"')
+            return [list(country) for country in data][0]
