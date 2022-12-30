@@ -1,21 +1,22 @@
 from dal.dao import Database
+from filter.filter import Filter
 import string
 import os
 
 
-def filterFields(meta):
-    fields = ''
-    keyArrtibutes = {
-        "coordinates": 'latitude,longitude',
-        "country": "country_name"
-    }
-    for key, value in meta.items():
-        if value:
-            fields = fields + keyArrtibutes[key]+','
-    return fields[:-1]
-
-
 class States:
+
+    '''
+    1. States function takes two parameters as input state name and filters.\n
+    2. By default function will return states name.\n
+    3. Addtional fields are included in filter.\n
+    4. From filter of boolean TRUE fields will be included in output
+        e.g
+            {
+                "coordinates":True
+            }
+
+    '''
 
     @staticmethod
     def getStates(country="", meta={}):
@@ -30,20 +31,28 @@ class States:
                 f'SELECT state_name FROM states')
             return [state[0] for state in data]
         elif type(country) == type({}):
-            meta, country = country, ""
-            selectedFields = filterFields(meta)
-            data = cursor.execute(
-                f'SELECT state_name,{selectedFields} FROM states')
-            return [list(country) for country in data]
+            if type(meta) == type(""):
+                if meta != "":
+                    selectedFields = Filter.CountryFilter(country)
+                    meta = string.capwords(meta)
+                    data = cursor.execute(
+                        f'SELECT state_name,{selectedFields} FROM states WHERE country_name = "{meta}"')
+                    return [list(country) for country in data]
+                else:
+                    meta, country = country, ""
+                    selectedFields = Filter.StateFilter(meta)
+                    data = cursor.execute(
+                        f'SELECT state_name,{selectedFields} FROM states')
+                    return [list(country) for country in data]
         elif country != "" and len(meta) > 0:
             country = string.capwords(country)
-            selectedFields = filterFields(meta)
+            selectedFields = Filter.StateFilter(meta)
             data = cursor.execute(
                 f'SELECT state_name,{selectedFields} FROM states WHERE country_name = "{country}"')
             return [list(country) for country in data]
         elif country != "" and len(meta) == 0:
             country = string.capwords(country)
-            selectedFields = filterFields(meta)
+            selectedFields = Filter.StateFilter(meta)
             data = cursor.execute(
                 f'SELECT state_name FROM states WHERE country_name = "{country}"')
             return [country[0] for country in list(data)]

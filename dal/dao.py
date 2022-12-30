@@ -1,5 +1,9 @@
 import sqlite3
 
+'''
+Connecting with database
+'''
+
 
 class Database:
     def __init__(self, path):

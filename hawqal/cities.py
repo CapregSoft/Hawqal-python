@@ -1,20 +1,7 @@
 from dal.dao import Database
+from filter.filter import Filter
 import string
 import os
-
-
-def filterFields(meta):
-    fields = ''
-    keyArrtibutes = {
-        "coordinates": 'cities.latitude , cities.longitude',
-        "country": 'cities.country_name',
-        "state": 'cities.state_name',
-
-    }
-    for key, value in meta.items():
-        if value:
-            fields = fields + keyArrtibutes[key]+','
-    return fields[:-1]
 
 
 class City:
@@ -45,13 +32,13 @@ class City:
                 f"SELECT cities.city_name FROM cities,states WHERE cities.state_id == states.state_id AND states.state_name == '{state}'")
             return [city[0] for city in data]
         elif (country != "" and state == "" and len(meta) > 0):
-            selectedFields = filterFields(meta)
+            selectedFields = Filter.CityFilters(meta)
             data = cursor.execute(
                 f"SELECT city_name,{selectedFields} FROM cities WHERE country_name = '{country}'")
             cities = [list(city) for city in data]
             return cities
         elif (country == "" and state != "" and len(meta) > 0):
-            selectedFields = filterFields(meta)
+            selectedFields = Filter.CityFilters(meta)
             data = cursor.execute(
                 f"SELECT cities.city_name,{selectedFields} FROM cities,states WHERE cities.state_id == states.state_id AND states.state_name == '{state}'")
             return [list(city) for city in list(data)]
