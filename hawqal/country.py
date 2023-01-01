@@ -5,11 +5,10 @@ import string
 
 
 class Country:
-
-    '''
+    """
     1. Countries function takes two parameters as input country name and filters.\n
-    2. By default function will return countries name.\n
-    3. Addtional fields are included in filter.\n
+    2. By default, function will return countries name.\n
+    3. Additional fields are included in filter.\n
     4. From filter of boolean TRUE fields will be included in output
         e.g
             {
@@ -20,7 +19,7 @@ class Country:
                 "capital": True
             }
 
-    '''
+    """
 
     @staticmethod
     def getCountries(country="", meta={}):

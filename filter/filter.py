@@ -3,6 +3,7 @@ class Filter:
     Filter function used to pass only TRUE fields to database
     Country function takes 5 optional parameters
     '''
+
     def CountryFilter(meta):
         fields = ''
         keyArrtibutes = {
@@ -14,13 +15,14 @@ class Filter:
         }
         for key, value in meta.items():
             if value:
-                fields = fields + keyArrtibutes[key]+','
+                fields = fields + keyArrtibutes[key] + ','
         return fields[:-1]
 
     '''
     Filter function used to pass only TRUE fields to database
     State function takes 2 optional parameters
     '''
+
     def StateFilter(meta):
         fields = ''
         keyArrtibutes = {
@@ -29,7 +31,7 @@ class Filter:
         }
         for key, value in meta.items():
             if value:
-                fields = fields + keyArrtibutes[key]+','
+                fields = fields + keyArrtibutes[key] + ','
         return fields[:-1]
 
     '''
@@ -47,5 +49,5 @@ class Filter:
         }
         for key, value in meta.items():
             if value:
-                fields = fields + keyArrtibutes[key]+','
+                fields = fields + keyArrtibutes[key] + ','
         return fields[:-1]

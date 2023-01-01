@@ -6,17 +6,17 @@ import os
 
 class States:
 
-    '''
+    """
     1. States function takes two parameters as input state name and filters.\n
-    2. By default function will return states name.\n
-    3. Addtional fields are included in filter.\n
+    2. By default, function will return states name.\n
+    3. Additional fields are included in filter.\n
     4. From filter of boolean TRUE fields will be included in output
         e.g
             {
                 "coordinates":True
             }
 
-    '''
+    """
 
     @staticmethod
     def getStates(country="", meta={}):
