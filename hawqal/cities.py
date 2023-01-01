@@ -17,7 +17,6 @@ class City:
                     "state":True
                 }
         """
-
     @staticmethod
     def getCities(country="", state="", meta={}):
         country = string.capwords(country)
