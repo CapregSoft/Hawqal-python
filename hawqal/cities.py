@@ -20,12 +20,6 @@ class City:
 
     @staticmethod
     def getCities(country="", state="", meta={}):
-        # if country == "" or state == "":
-        #     pass
-        # else:
-        #     country = string.capwords(country)
-        #     state = string.capwords(state)
-        cities = []
         dirname = os.path.dirname(__file__)
         file_name = os.path.join(
             dirname, '..', 'database', 'hawqalDB.sqlite')
@@ -37,7 +31,7 @@ class City:
                 f"SELECT city_name FROM cities ORDER BY city_name")
             cities = [city[0] for city in data]
             return cities
-        elif country != "" and type(country)!=type({}) and state == "" and len(meta) == 0:
+        elif country != "" and type(country) != type({}) and state == "" and len(meta) == 0:
             data = cursor.execute(
                 f"SELECT city_name FROM cities WHERE country_name = '{country}'")
             cities = [city[0] for city in data]
@@ -65,7 +59,7 @@ class City:
                 f"SELECT cities.city_name,{selectedFields}  FROM cities ORDER BY city_name")
             return [list(city) for city in list(data)]
         elif any(isinstance(arg, dict) for arg in (country, state, meta)):
-            if(country == type({})):
+            if (country == type({})):
                 meta, country, state = country, "", ""
             else:
                 meta, country, state = state, "", ""
