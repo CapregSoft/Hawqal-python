@@ -18,6 +18,7 @@ class TestFunc(unittest.TestCase):
     def test_getCities(self):
         self.assertEqual(len(City.getCities()), 150710)
         self.assertEqual(len(City.getCities("pakistan")), 458)
+        self.assertEqual(len(City.getCities(state="punjab")), 329)
 
 
 if __name__ == '__main__':
