@@ -54,8 +54,10 @@ class City:
             return [city[0] for city in data]
         elif country != "" and state != "" and type(state) != type({}) and len(meta) > 0:
             selectedFields = Filter.CityFilters(meta)
-            data = cursor.execute(
-                f"SELECT city_name,{selectedFields} FROM cities WHERE country_name = '{country}'")
+            data = cursor.execute(f"SELECT cities.city_name,{selectedFields},states.state_name,countries.country_name FROM cities,"
+                                  f"states,countries WHERE cities.state_id == states.state_id AND states.state_name "
+                                  f"== '{state}' AND  cities.country_name== countries.country_name AND "
+                                  f"countries.country_name == '{country}';")
             cities = [list(city) for city in data]
             return cities
         elif country != "" and state != "" and type(state) != type({}) and len(meta) == 0:
