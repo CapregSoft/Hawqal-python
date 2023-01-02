@@ -76,11 +76,3 @@ class City:
             data = cursor.execute(
                 f"SELECT cities.city_name,{selectedFields}  FROM cities ORDER BY city_name")
             return [list(city) for city in list(data)]
-        # elif any(isinstance(arg, dict) for arg in (country, state, meta)):
-        #     if (country == type({})):
-        #         meta, country, state = country, "", ""
-        #     else:
-        #         meta, country, state = state, "", ""
-        #     selectedFields = Filter.CityFilters(meta)
-        #     data = cursor.execute(f"SELECT cities.city_name,{selectedFields}  FROM cities ORDER BY city_name")
-        #     return [list(city) for city in list(data)]
