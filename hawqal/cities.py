@@ -17,10 +17,13 @@ class City:
                     "state":True
                 }
         """
+
     @staticmethod
     def getCities(country="", state="", meta={}):
-        country = string.capwords(country)
-        state = string.capwords(state)
+        if isinstance(country, str):
+            country = string.capwords(country)
+        if isinstance(state, str):
+            state = string.capwords(state)
         dirname = os.path.dirname(__file__)
         file_name = os.path.join(
             dirname, '..', 'database', 'hawqalDB.sqlite')
@@ -38,16 +41,28 @@ class City:
                 f"SELECT city_name FROM cities WHERE country_name = '{country}'")
             cities = [city[0] for city in data]
             return cities
+        elif country != "" and type(country) != type({}) and state == "" and len(meta) > 0:
+            selectedFields = Filter.CityFilters(meta)
+            data = cursor.execute(
+                f"SELECT city_name,{selectedFields} FROM cities WHERE country_name = '{country}'")
+            cities = [list(city) for city in data]
+            return cities
         elif country == "" and state != "" and len(meta) == 0:
-
             data = cursor.execute(
                 f"SELECT cities.city_name FROM cities,states WHERE cities.state_id == states.state_id AND "
                 f"states.state_name == '{state}'")
             return [city[0] for city in data]
-        elif country != "" and type(state) != type({}) and len(meta) > 0:
+        elif country != "" and state != "" and type(state) != type({}) and len(meta) > 0:
             selectedFields = Filter.CityFilters(meta)
             data = cursor.execute(
                 f"SELECT city_name,{selectedFields} FROM cities WHERE country_name = '{country}'")
+            cities = [list(city) for city in data]
+            return cities
+        elif country != "" and state != "" and type(state) != type({}) and len(meta) == 0:
+            data = cursor.execute(f"SELECT cities.city_name,states.state_name,countries.country_name FROM cities,"
+                                  f"states,countries WHERE cities.state_id == states.state_id AND states.state_name "
+                                  f"== '{state}' AND  cities.country_name== countries.country_name AND "
+                                  f"countries.country_name == '{country}';")
             cities = [list(city) for city in data]
             return cities
         elif country == "" and state != "" and len(meta) > 0:
@@ -61,11 +76,11 @@ class City:
             data = cursor.execute(
                 f"SELECT cities.city_name,{selectedFields}  FROM cities ORDER BY city_name")
             return [list(city) for city in list(data)]
-        elif any(isinstance(arg, dict) for arg in (country, state, meta)):
-            if (country == type({})):
-                meta, country, state = country, "", ""
-            else:
-                meta, country, state = state, "", ""
-            selectedFields = Filter.CityFilters(meta)
-            data = cursor.execute(f"SELECT cities.city_name,{selectedFields}  FROM cities ORDER BY city_name")
-            return [list(city) for city in list(data)]
+        # elif any(isinstance(arg, dict) for arg in (country, state, meta)):
+        #     if (country == type({})):
+        #         meta, country, state = country, "", ""
+        #     else:
+        #         meta, country, state = state, "", ""
+        #     selectedFields = Filter.CityFilters(meta)
+        #     data = cursor.execute(f"SELECT cities.city_name,{selectedFields}  FROM cities ORDER BY city_name")
+        #     return [list(city) for city in list(data)]
