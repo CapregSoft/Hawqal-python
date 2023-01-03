@@ -17,9 +17,14 @@ the data by just calling the relevant functions
 
 To install the Hawqal package, use the following command:
 
-```python
-pip install hawqal
-```
+- windows
+  ```python
+  pip install hawqal
+  ```
+- macos/linux
+  ```python
+  pip3 install hawqal
+  ```
 
 ## Features/Example
 

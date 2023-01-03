@@ -42,9 +42,9 @@ class Filter:
     def CityFilters(meta):
         fields = ''
         keyArrtibutes = {
-            "coordinates": 'cities.latitude , cities.longitude',
-            "country": 'cities.country_name',
-            "state": 'cities.state_name',
+            "coordinates": 'latitude , longitude',
+            "country": 'country_name',
+            "state": 'state_name',
 
         }
         for key, value in meta.items():
