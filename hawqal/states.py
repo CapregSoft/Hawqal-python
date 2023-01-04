@@ -60,9 +60,9 @@ class States:
         if len(country_name) > 0 and len(state_name) > 0:
             query = f'where country_name= "{string.capwords(country_name)}" and state_name= "{string.capwords(state_name)}"'
         elif len(country_name) > 0:
-            query = query + f' country_name= "{string.capwords(country_name)}"'
+            query = query + f'where country_name= "{string.capwords(country_name)}"'
         elif len(state_name) > 0:
-            query = query + f' state_name= "{string.capwords(state_name)}"'
+            query = query + f'where state_name= "{string.capwords(state_name)}"'
 
         query = query + " ORDER BY country_name"
 
