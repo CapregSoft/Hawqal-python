@@ -7,7 +7,7 @@ import string
 class Country:
 
     @staticmethod
-    def getCountries(country="", meta={}):
+    def getCountries(meta={}):
         """
             1. Countries function takes two parameters as input country name and meta.\n
             2. By default, function will return countries name.\n
@@ -31,32 +31,14 @@ class Country:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
 
-        if country == "" and len(meta) == 0:
-            data = cursor.execute(
-                f"SELECT country_name FROM countries ORDER BY country_name ASC")
-            return [country[0] for country in list(data)]
-        elif country == "" and len(meta) != 0:
-            selectedFields = Filter.CountryFilter(meta)
-            if len(selectedFields) != 0:
-                data = cursor.execute(
-                    f"SELECT country_name,{selectedFields} FROM countries ORDER BY country_name ASC")
-                return [list(country) for country in data]
-            else:
-                data = cursor.execute(
-                    f"SELECT country_name FROM countries ORDER BY country_name ASC")
-                return [country[0] for country in list(data)]
-        elif (country != "" and len(meta) > 0):
-            selectedFields = Filter.CountryFilter(meta)
-            if len(selectedFields) != 0:
-                data = cursor.execute(
-                    f'SELECT country_name,{selectedFields} FROM countries WHERE country_name = "{string.capwords(country)}"')
-                return [list(country) for country in data][0]
-            else:
-                data = cursor.execute(
-                    f'SELECT country_name FROM countries WHERE country_name = "{string.capwords(country)}"')
-                return [list(country) for country in data][0]
+        query = "SELECT"
 
-        elif (country != "" and len(meta) == 0):
-            data = cursor.execute(
-                f'SELECT * FROM countries WHERE country_name = "{string.capwords(country)}"')
-            return [list(country) for country in data][0]
+        if len(meta) > 0:
+            query = query + f' {selectedFields}'
+        elif len(meta)==0:
+            query=query+" * "
+        
+        query = query + " FROM countries ORDER BY country_name ASC"
+
+        data = cursor.execute(query)
+        return [country[0] for country in list(data)]
