@@ -9,10 +9,10 @@ class Country:
     @staticmethod
     def getCountries(country="", meta={}):
         """
-            1. Countries function takes two parameters as input country name and filters.\n
+            1. Countries function takes two parameters as input country name and meta.\n
             2. By default, function will return countries name.\n
             3. Additional fields are included in filter.\n
-            4. From filter of boolean TRUE fields will be included in output
+            4. From meta TRUE fields will be included in output
                 e.g
                     {
                         "coordinates": True,
@@ -35,31 +35,16 @@ class Country:
             data = cursor.execute(
                 f"SELECT country_name FROM countries ORDER BY country_name ASC")
             return [country[0] for country in list(data)]
-
-        elif type(country) == type({}):
-            if type(meta) == type(""):
-                if meta != "":
-                    selectedFields = Filter.CountryFilter(country)
-                    data = cursor.execute(
-                        f'SELECT country_name,{selectedFields} FROM countries WHERE country_name = "{string.capwords(meta)}"')
-                    return [list(country) for country in data][0]
-                else:
-                    selectedFields = Filter.CountryFilter(country)
-                    data = cursor.execute(
-                        f'SELECT country_name,{selectedFields} FROM countries')
-                    return [list(country) for country in data]
+        elif country == "" and len(meta) != 0:
+            selectedFields = Filter.CountryFilter(meta)
+            if len(selectedFields) != 0:
+                data = cursor.execute(
+                    f"SELECT country_name,{selectedFields} FROM countries ORDER BY country_name ASC")
+                return [list(country) for country in data]
             else:
-                meta, country = country, ""
-                selectedFields = Filter.CountryFilter(meta)
-                if len(selectedFields) != 0:
-                    data = cursor.execute(
-                        f'SELECT country_name,{selectedFields} FROM countries')
-                    return [list(country) for country in data]
-                else:
-                    data = cursor.execute(
-                        f'SELECT country_name FROM countries')
-                    return [country[0] for country in data]
-
+                data = cursor.execute(
+                    f"SELECT country_name FROM countries ORDER BY country_name ASC")
+                return [country[0] for country in list(data)]
         elif (country != "" and len(meta) > 0):
             selectedFields = Filter.CountryFilter(meta)
             if len(selectedFields) != 0:

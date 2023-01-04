@@ -32,35 +32,58 @@ class City:
                 f"SELECT city_name FROM cities ORDER BY city_name")
             cities = [city[0] for city in data]
             return cities
-        elif country != "" and type(country) != type({}) and state == "" and len(meta) == 0:
+        elif country != "" and state == "" and len(meta) == 0:
             data = cursor.execute(
-                f"SELECT city_name FROM cities WHERE (country_name='{string.capwords(country)}' OR state_name='{string.capwords(country)}') ORDER BY city_name")
-            return [city[0] for city in data]
-
-        elif (type(country) == type({}) and state == "" and len(meta) == 0):
-            selectedFields = Filter.CityFilters(country)
-            if len(selectedFields) != 0:
+                f"SELECT city_name FROM cities WHERE country_name = '{string.capwords(country)}' ORDER BY city_name")
+            cities = [city[0] for city in data]
+            return cities
+        elif country == "" and state != "" and len(meta) == 0:
+            data = cursor.execute(
+                f"SELECT city_name FROM cities WHERE state_name = '{string.capwords(state)}' ORDER BY city_name")
+            cities = [city[0] for city in data]
+            return cities
+        elif country != "" and state != "" and len(meta) == 0:
+            data = cursor.execute(
+                f"SELECT city_name FROM cities WHERE country_name = '{string.capwords(country)}' AND state_name = '{string.capwords(state)}' ORDER BY city_name")
+            cities = [city[0] for city in data]
+            return cities
+        elif country != "" and state != "" and len(meta) != 0:
+            selectedFields = Filter.StateFilter(meta)
+            if len(selectedFields) > 0:
+                data = cursor.execute(
+                    f"SELECT city_name,{selectedFields} FROM cities WHERE country_name = '{string.capwords(country)}' AND state_name = '{string.capwords(state)}' ORDER BY city_name")
+                return [list(city) for city in data]
+            else:
+                data = cursor.execute(
+                    f"SELECT city_name FROM cities WHERE country_name = '{string.capwords(country)}' AND state_name = '{string.capwords(state)}' ORDER BY city_name")
+                return [city[0] for city in data]
+        elif country == "" and state != "" and len(meta) != 0:
+            selectedFields = Filter.StateFilter(meta)
+            if len(selectedFields) > 0:
+                data = cursor.execute(
+                    f"SELECT city_name,{selectedFields} FROM cities WHERE state_name = '{string.capwords(state)}' ORDER BY city_name")
+                return [list(city) for city in data]
+            else:
+                data = cursor.execute(
+                    f"SELECT city_name FROM cities WHERE state_name = '{string.capwords(state)}' ORDER BY city_name")
+                return [city[0] for city in data]
+        elif country != "" and state == "" and len(meta) != 0:
+            selectedFields = Filter.StateFilter(meta)
+            if len(selectedFields) > 0:
+                data = cursor.execute(
+                    f"SELECT city_name,{selectedFields} FROM cities WHERE country_name = '{string.capwords(country)}' ORDER BY city_name")
+                return [list(city) for city in data]
+            else:
+                data = cursor.execute(
+                    f"SELECT city_name FROM cities WHERE country_name = '{string.capwords(country)}' ORDER BY city_name")
+                return [city[0] for city in data]
+        elif country == "" and state == "" and len(meta) != 0:
+            selectedFields = Filter.StateFilter(meta)
+            if len(selectedFields) > 0:
                 data = cursor.execute(
                     f"SELECT city_name,{selectedFields} FROM cities ORDER BY city_name")
-                return [list(city) for city in list(data)]
+                return[list(city) for city in data]
             else:
                 data = cursor.execute(
                     f"SELECT city_name FROM cities ORDER BY city_name")
-                return [city[0] for city in list(data)]
-
-        elif country != "" and type(state) == type({}) and len(meta) == 0:
-            selectedFields = Filter.CityFilters(state)
-            if len(selectedFields) != 0:
-                data = cursor.execute(
-                    f"SELECT city_name,{selectedFields} FROM cities WHERE (country_name='{string.capwords(country)}' OR state_name='{string.capwords(country)}') ORDER BY city_name")
-                return [list(city) for city in list(data)]
-            else:
-                data = cursor.execute(
-                    f"SELECT city_name FROM cities WHERE (country_name='{string.capwords(country)}' OR state_name='{string.capwords(country)}') ORDER BY city_name")
                 return [city[0] for city in data]
-
-        elif country != "" and state != "" and len(meta) > 0:
-            selectedFields = Filter.CityFilters(meta)
-            data = cursor.execute(
-                f"SELECT city_name,{selectedFields} FROM cities WHERE country_name='{string.capwords(string.capwords(country))}' AND state_name='{string.capwords(string.capwords(state))}' ORDER BY city_name")
-            return [list(city) for city in list(data)]

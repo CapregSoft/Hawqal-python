@@ -31,43 +31,30 @@ class States:
                 f'SELECT state_name FROM states')
             return [state[0] for state in data]
 
-        elif type(country) == type({}) and len(meta) == 0:
-            if type(meta) == type(""):
-                if meta != "":
-                    selectedFields = Filter.CountryFilter(country)
-                    data = cursor.execute(
-                        f'SELECT state_name,{selectedFields} FROM states WHERE country_name = "{string.capwords(meta)}"')
-                    return [list(country) for country in data]
-                else:
-                    meta, country = country, ""
-                    selectedFields = Filter.StateFilter(meta)
-                    data = cursor.execute(
-                        f'SELECT state_name,{selectedFields} FROM states')
-                    return [list(country) for country in data]
+        elif country == "" and len(meta) != 0:
+            selectedFields = Filter.StateFilter(meta)
+            if len(selectedFields) != 0:
+                data = cursor.execute(
+                    f'SELECT state_name,{selectedFields} FROM states')
+                return [list(state) for state in data]
             else:
-                selectedFields = Filter.CountryFilter(country)
-                if len(selectedFields) != 0:
-                    data = cursor.execute(
-                        f'SELECT state_name,{selectedFields} FROM states ORDER BY state_name')
-                    return [list(country) for country in data]
-                else:
-                    data = cursor.execute(
-                        f'SELECT state_name FROM states ORDER BY state_name')
-                    return [country[0] for country in data]
+                data = cursor.execute(
+                    f'SELECT state_name FROM states')
+                return [state for state in data]
 
         elif country != "" and len(meta) > 0:
             selectedFields = Filter.StateFilter(meta)
             if len(selectedFields) != 0:
                 data = cursor.execute(
                     f'SELECT state_name,{selectedFields} FROM states WHERE country_name = "{string.capwords(country)}"')
-                return [list(country) for country in data]
+                return [list(state) for state in data]
             else:
                 data = cursor.execute(
                     f'SELECT state_name FROM states WHERE country_name = "{string.capwords(country)}"')
-                return [country[0] for country in data]
+                return [state[0] for state in data]
 
         elif country != "" and len(meta) == 0:
             selectedFields = Filter.StateFilter(meta)
             data = cursor.execute(
                 f'SELECT state_name FROM states WHERE country_name = "{string.capwords(country)}"')
-            return [country[0] for country in list(data)]
+            return [state[0] for state in list(data)]
