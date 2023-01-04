@@ -78,8 +78,10 @@ class States:
 
         query = query + " ORDER BY country_name"
 
+        cursor.execute(query)
+
         data_json = []
-        header = [i[0] for i in curr.description]
+        header = [i[0] for i in cursor.description]
         data = cursor.fetchall()
         for i in data:
             data_json.append(dict(zip(header, i)))
