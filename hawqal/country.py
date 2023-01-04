@@ -33,7 +33,9 @@ class Country:
 
         query = "SELECT"
 
+
         if len(meta) > 0:
+            selectedFields = Filter.CountryFilter(meta)
             query = query + f' {selectedFields}'
         elif len(meta)==0:
             query=query+" * "
