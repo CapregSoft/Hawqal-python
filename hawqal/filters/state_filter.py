@@ -8,15 +8,7 @@ class StateFilter:
 
     def __str__(self):
         fields = ""
-        if self.state_id:
-            fields = fields+'state_id,'
-        if self.state_name:
-            fields = fields+' state_name,'
-        if self.country_name:
-            fields = fields + 'country_name,'
-        if self.longitude:
-            fields = fields + 'longitude,'
-        if self.latitude:
-            fields = fields + 'latitude,'
-
-        return fields[:-1]+' '
+        for field in ['state_id', 'state_name', 'country_name', 'longitude', 'latitude']:
+            if getattr(self, field):
+                fields = fields + field + ', '
+        return fields[:-2]

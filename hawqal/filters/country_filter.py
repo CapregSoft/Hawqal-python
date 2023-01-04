@@ -16,37 +16,11 @@ class CountryFilter:
         self.zone_city = zone_city
         self.UTC = UTC
 
+
+
     def __str__(self):
         fields = ""
-        if self.country_name:
-            fields = fields+'country_name,'
-        if self.longitude:
-            fields = fields+' longitude,'
-        if self.latitude:
-            fields = fields + 'latitude,'
-        if self.iso_code:
-            fields = fields + 'iso_code,'
-        if self.phone_code:
-            fields = fields + 'phone_code,'
-        if self.capital:
-            fields = fields+'capital,'
-        if self.currency:
-            fields = fields+' currency,'
-        if self.currency_name:
-            fields = fields + 'currency_name,'
-        if self.currency_symbol:
-            fields = fields + 'currency_symbol,'
-        if self.country_domain:
-            fields = fields + 'country_domain,'
-        if self.region:
-            fields = fields + 'region,'
-        if self.subregion:
-            fields = fields + 'subregion,'
-        if self.timezone:
-            fields = fields + 'timezone,'
-        if self.zone_city:
-            fields = fields + 'zone_city,'
-        if self.UTC:
-            fields = fields + 'UTC,'
-
-        return fields[:-1]+' '
+        for field in ['country_name', 'iso_code', 'phone_code', 'capital', 'currency', 'currency_name', 'currency_symbol', 'country_domain', 'region', 'subregion', 'timezone', 'zone_city', 'UTC', 'longitude', 'latitude']:
+            if getattr(self, field):
+                fields = fields + field + ', '
+        return fields[:-2]

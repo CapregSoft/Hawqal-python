@@ -1,5 +1,6 @@
 class CityFilter:
-    def __init__(self, city_id=True, city_name=True, state_name=True, state_id=True, country_name=True, latitude=True, longitude=True):
+    def __init__(self, city_id=True, city_name=True, state_name=True, state_id=True, country_name=True, latitude=True,
+                 longitude=True):
         self.country_name = country_name
         self.longitude = longitude
         self.latitude = latitude
@@ -10,19 +11,7 @@ class CityFilter:
 
     def __str__(self):
         fields = ""
-        if self.country_name:
-            fields = fields+'country_name,'
-        if self.longitude:
-            fields = fields+' longitude,'
-        if self.latitude:
-            fields = fields + 'latitude,'
-        if self.city_id:
-            fields = fields+'city_id,'
-        if self.city_name:
-            fields = fields+' city_name,'
-        if self.state_name:
-            fields = fields + 'state_name,'
-        if self.state_id:
-            fields = fields + 'state_id,'
-
-        return fields[:-1]+' '
+        for field in ['country_name', 'city_id', 'city_name', 'state_id', 'state_name', 'latitude', 'longitude']:
+            if getattr(self, field):
+                fields = fields + field + ', '
+        return fields[:-2]
