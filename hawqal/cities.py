@@ -1,5 +1,4 @@
 from dal.dao import Database
-from filter.filter import Filter
 import string
 import os
 

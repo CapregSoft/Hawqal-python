@@ -1,5 +1,5 @@
 from dal.dao import Database
-from filter.filter import Filter
+from .filters.state_filter import StateFilter
 import string
 import os
 
@@ -7,7 +7,7 @@ import os
 class States:
 
     @staticmethod
-    def getStates(country_name="", meta={}):
+    def getStates(country_name="", filter=StateFilter()):
         """
             1. States function takes two parameters as input state name and filters.\n
             2. By default, function will return states name.\n
@@ -26,32 +26,28 @@ class States:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
 
-        query = "SELECT"
+        query = "SELECT " + str(filter) + " FROM states"
 
-        if len(meta)>0:
-            selectedFields = Filter.StateFilter(meta)
-            query = query + f' {selectedFields}'
-        elif len(meta)==0:
-            query = query + " *"
+        if len(country_name) > 0:
+            query = query + \
+                f' where country_name= "{string.capwords(country_name)}"'
 
-        query = query + " FROM states"
-
-        if len(country_name)>0:
-            query=query+ f' where country_name= "{string.capwords(country_name)}"'
-
+        print(query)
+        print(filter)
         cursor.execute(query)
 
         data_json = []
-        header = [i[0] for i in curr.description]
+        header = [i[0] for i in cursor.description]
         data = cursor.fetchall()
         for i in data:
             data_json.append(dict(zip(header, i)))
         return data_json
 
-
     @staticmethod
-    def getState(country_name="",state_name="", meta={}):
-        
+    def getState(country_name="", state_name="", filter=StateFilter()):
+        if state_name == "":
+            raise ValueError("state_name must be set")
+
         file_name = os.path.join(
             os.path.dirname(__file__), '..', 'database', 'hawqalDB.sqlite')
 
@@ -59,22 +55,14 @@ class States:
             database = Database(file_name).makeConnection()
             cursor = database.cursor()
 
-        query = "SELECT"
+        query = "SELECT " + filter + " FROM states"
 
-        if len(meta)>0:
-            selectedFields = Filter.StateFilter(meta)
-            query = query + f' {selectedFields}'
-        elif len(meta)==0:
-            query = query + " *"
-
-        query = query + " FROM states where"
-
-        if len(country_name)>0 and len(state_name)>0:
-            query = f' country_name= "{string.capwords(country_name)}" and state_name= "{string.capwords(state_name)}"'
-        elif len(country_name)>0:
-            query=query+ f' country_name= "{string.capwords(country_name)}"'
-        elif len(state_name)>0:       
-            query=query+ f' state_name= "{string.capwords(state_name)}"'
+        if len(country_name) > 0 and len(state_name) > 0:
+            query = f'where country_name= "{string.capwords(country_name)}" and state_name= "{string.capwords(state_name)}"'
+        elif len(country_name) > 0:
+            query = query + f' country_name= "{string.capwords(country_name)}"'
+        elif len(state_name) > 0:
+            query = query + f' state_name= "{string.capwords(state_name)}"'
 
         query = query + " ORDER BY country_name"
 

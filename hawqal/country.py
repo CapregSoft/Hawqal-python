@@ -1,8 +1,6 @@
 from dal.dao import Database
-from filter.filter import Filter
+from .filters.filter import Filter
 import os
-import string
-
 
 class Country:
 
