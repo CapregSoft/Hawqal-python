@@ -1,0 +1,4124 @@
+[
+  {
+    "country_name": "Pakistan",
+    "city_id": 85368,
+    "city_name": "Bhimbar",
+    "state_id": 3172,
+    "state_name": "Azad Kashmir",
+    "latitude": "32.97465",
+    "longitude": "74.07846"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85562,
+    "city_name": "Kotli",
+    "state_id": 3172,
+    "state_name": "Azad Kashmir",
+    "latitude": "33.51836",
+    "longitude": "73.9022"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85563,
+    "city_name": "Kotli District",
+    "state_id": 3172,
+    "state_name": "Azad Kashmir",
+    "latitude": "33.44559",
+    "longitude": "73.91557"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85614,
+    "city_name": "Mirpur District",
+    "state_id": 3172,
+    "state_name": "Azad Kashmir",
+    "latitude": "33.21556",
+    "longitude": "73.75144"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85628,
+    "city_name": "Muzaffar\u0101b\u0101d",
+    "state_id": 3172,
+    "state_name": "Azad Kashmir",
+    "latitude": "34.37002",
+    "longitude": "73.47082"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85643,
+    "city_name": "New Mirpur",
+    "state_id": 3172,
+    "state_name": "Azad Kashmir",
+    "latitude": "33.14782",
+    "longitude": "73.75187"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85682,
+    "city_name": "Rawala Kot",
+    "state_id": 3172,
+    "state_name": "Azad Kashmir",
+    "latitude": "33.85782",
+    "longitude": "73.76043"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85334,
+    "city_name": "Alik Ghund",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.48976",
+    "longitude": "67.52177"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85342,
+    "city_name": "Aw\u0101r\u0101n District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "26.21157",
+    "longitude": "65.42944"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85353,
+    "city_name": "Barkhan",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.89773",
+    "longitude": "69.52558"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85375,
+    "city_name": "B\u0101rkh\u0101n District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.98482",
+    "longitude": "69.69944"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85360,
+    "city_name": "Bela",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "26.22718",
+    "longitude": "66.31178"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85362,
+    "city_name": "Bhag",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.04174",
+    "longitude": "67.82394"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85401,
+    "city_name": "Ch\u0101gai District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.98765",
+    "longitude": "63.59087"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85385,
+    "city_name": "Chaman",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.91769",
+    "longitude": "66.45259"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85397,
+    "city_name": "Chowki Jamali",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.01944",
+    "longitude": "67.92083"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85402,
+    "city_name": "Dadhar",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.47489",
+    "longitude": "67.65167"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85406,
+    "city_name": "Dalbandin",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.88846",
+    "longitude": "64.40616"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85416,
+    "city_name": "Dera Bugti",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.03619",
+    "longitude": "69.15849"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85417,
+    "city_name": "Dera Bugti District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.9425",
+    "longitude": "69.06883"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85432,
+    "city_name": "Duki",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.15307",
+    "longitude": "68.57323"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85442,
+    "city_name": "Gadani",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "25.11879",
+    "longitude": "66.73219"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85445,
+    "city_name": "Garhi Khairo",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.06029",
+    "longitude": "67.98033"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85459,
+    "city_name": "Gwadar",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "25.12163",
+    "longitude": "62.32541"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85465,
+    "city_name": "Harnai",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.10077",
+    "longitude": "67.93824"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85497,
+    "city_name": "J\u0101far\u0101b\u0101d District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.30104",
+    "longitude": "68.19783"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85489,
+    "city_name": "Jhal Magsi District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.36881",
+    "longitude": "67.543"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85495,
+    "city_name": "Jiwani",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "25.04852",
+    "longitude": "61.74573"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85507,
+    "city_name": "Kalat",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.02663",
+    "longitude": "66.59361"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85511,
+    "city_name": "Kal\u0101t District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.88242",
+    "longitude": "66.53165"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85530,
+    "city_name": "Khadan Khak",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.75236",
+    "longitude": "67.71133"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85543,
+    "city_name": "Kharan",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.58459",
+    "longitude": "65.41501"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85550,
+    "city_name": "Kh\u0101r\u0101n District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "27.96308",
+    "longitude": "64.57113"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85548,
+    "city_name": "Khuzdar",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "27.81193",
+    "longitude": "66.61096"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85549,
+    "city_name": "Khuzd\u0101r District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "27.4868",
+    "longitude": "66.58703"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85552,
+    "city_name": "Kohlu",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.89651",
+    "longitude": "69.25324"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85556,
+    "city_name": "Kot Malik Barkhurdar",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.20379",
+    "longitude": "66.98723"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85579,
+    "city_name": "Lasbela District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "25.78634",
+    "longitude": "66.6033"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85584,
+    "city_name": "Loralai",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.37051",
+    "longitude": "68.59795"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85585,
+    "city_name": "Loralai District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.30253",
+    "longitude": "68.84636"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85586,
+    "city_name": "Mach",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.86371",
+    "longitude": "67.33018"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85599,
+    "city_name": "Mastung",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.79966",
+    "longitude": "66.84553"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85600,
+    "city_name": "Mastung District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.79455",
+    "longitude": "66.72068"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85605,
+    "city_name": "Mehrabpur",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.10773",
+    "longitude": "68.02554"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85629,
+    "city_name": "M\u016bsa Khel District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.84937",
+    "longitude": "69.90069"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85635,
+    "city_name": "Nas\u012br\u0101b\u0101d District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.62643",
+    "longitude": "68.12925"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85648,
+    "city_name": "Nushki",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.55218",
+    "longitude": "66.02288"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85651,
+    "city_name": "Ormara",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "25.21018",
+    "longitude": "64.63626"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85656,
+    "city_name": "Panjg\u016br District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "26.7375",
+    "longitude": "64.2038"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85658,
+    "city_name": "Pasni",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "25.26302",
+    "longitude": "63.46921"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85668,
+    "city_name": "Pishin",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.58176",
+    "longitude": "66.99406"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85671,
+    "city_name": "Qila Saifull\u0101h District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.95392",
+    "longitude": "68.33996"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85672,
+    "city_name": "Quetta",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.18414",
+    "longitude": "67.00141"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85673,
+    "city_name": "Quetta District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.17458",
+    "longitude": "66.76203"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85721,
+    "city_name": "Sibi",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "29.54299",
+    "longitude": "67.87726"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85727,
+    "city_name": "Sohbatpur",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.52038",
+    "longitude": "68.54298"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85731,
+    "city_name": "Surab",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.49276",
+    "longitude": "66.25999"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85755,
+    "city_name": "Turbat",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "26.00122",
+    "longitude": "63.04849"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85760,
+    "city_name": "Usta Muhammad",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "28.17723",
+    "longitude": "68.04367"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85761,
+    "city_name": "Uthal",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "25.80722",
+    "longitude": "66.62194"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85771,
+    "city_name": "Zhob",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "31.34082",
+    "longitude": "69.4493"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85772,
+    "city_name": "Zhob District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "31.36444",
+    "longitude": "69.20749"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85773,
+    "city_name": "Ziarat",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.38244",
+    "longitude": "67.72562"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85774,
+    "city_name": "Zi\u0101rat District",
+    "state_id": 3174,
+    "state_name": "Balochistan",
+    "latitude": "30.43591",
+    "longitude": "67.50962"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85336,
+    "city_name": "Alizai",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "33.53613",
+    "longitude": "70.34607"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85458,
+    "city_name": "Gulishah Kach",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "32.67087",
+    "longitude": "70.33917"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85577,
+    "city_name": "Landi Kotal",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "34.0988",
+    "longitude": "71.14108"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85611,
+    "city_name": "Miran Shah",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "33.00059",
+    "longitude": "70.07117"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85645,
+    "city_name": "North Waz\u012brist\u0101n Agency",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "32.95087",
+    "longitude": "69.95764"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85717,
+    "city_name": "Shinpokh",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "34.32959",
+    "longitude": "71.17852"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85728,
+    "city_name": "South Waz\u012brist\u0101n Agency",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "32.30397",
+    "longitude": "69.68207"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85764,
+    "city_name": "Wana",
+    "state_id": 3173,
+    "state_name": "Federally Administered Tribal Areas",
+    "latitude": "32.29889",
+    "longitude": "69.5725"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85352,
+    "city_name": "Barishal",
+    "state_id": 3170,
+    "state_name": "Gilgit-Baltistan",
+    "latitude": "36.32162",
+    "longitude": "74.69502"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85450,
+    "city_name": "Gilgit",
+    "state_id": 3170,
+    "state_name": "Gilgit-Baltistan",
+    "latitude": "35.91869",
+    "longitude": "74.31245"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85724,
+    "city_name": "Skardu",
+    "state_id": 3170,
+    "state_name": "Gilgit-Baltistan",
+    "latitude": "35.29787",
+    "longitude": "75.63372"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85475,
+    "city_name": "Islamabad",
+    "state_id": 3169,
+    "state_name": "Islamabad Capital Territory",
+    "latitude": "33.72148",
+    "longitude": "73.04329"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85329,
+    "city_name": "Abbottabad",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.1463",
+    "longitude": "73.21168"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85333,
+    "city_name": "Akora",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.00337",
+    "longitude": "72.12561"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85337,
+    "city_name": "Aman Garh",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.00584",
+    "longitude": "71.92971"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85338,
+    "city_name": "Amirabad",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.18729",
+    "longitude": "73.09078"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85340,
+    "city_name": "Ashanagro Koto",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.10773",
+    "longitude": "72.24517"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85345,
+    "city_name": "Baffa",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.4377",
+    "longitude": "73.22368"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85351,
+    "city_name": "Bannu",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "32.98527",
+    "longitude": "70.60403"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85356,
+    "city_name": "Bat Khela",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.6178",
+    "longitude": "71.97247"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85357,
+    "city_name": "Battagram",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.67719",
+    "longitude": "73.02329"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85358,
+    "city_name": "Battagram District",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.68051",
+    "longitude": "73.00535"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85374,
+    "city_name": "Buner District",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.44301",
+    "longitude": "72.49933"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85387,
+    "city_name": "Charsadda",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.14822",
+    "longitude": "71.7406"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85390,
+    "city_name": "Cherat Cantonement",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.82342",
+    "longitude": "71.89292"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85395,
+    "city_name": "Chitral",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "35.8518",
+    "longitude": "71.78636"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85419,
+    "city_name": "Dera Ismail Khan",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "31.83129",
+    "longitude": "70.9017"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85420,
+    "city_name": "Dera Ism\u0101\u012bl Kh\u0101n District",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "31.85963",
+    "longitude": "70.64879"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85430,
+    "city_name": "Doaba",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.4245",
+    "longitude": "70.73676"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85463,
+    "city_name": "Hangu",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.53198",
+    "longitude": "71.0595"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85464,
+    "city_name": "Haripur",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.99783",
+    "longitude": "72.93493"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85470,
+    "city_name": "Havelian",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.05348",
+    "longitude": "73.15993"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85504,
+    "city_name": "Kakad Wari Dir Upper",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.99798",
+    "longitude": "72.07295"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85522,
+    "city_name": "Karak",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.11633",
+    "longitude": "71.09354"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85536,
+    "city_name": "Khalabat",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.05997",
+    "longitude": "72.88963"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85551,
+    "city_name": "Kohat",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.58196",
+    "longitude": "71.44929"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85566,
+    "city_name": "Kulachi",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "31.93058",
+    "longitude": "70.45959"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85570,
+    "city_name": "Lachi",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.38291",
+    "longitude": "71.33733"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85574,
+    "city_name": "Lakki",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "32.60724",
+    "longitude": "70.91234"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85597,
+    "city_name": "Mansehra",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.33023",
+    "longitude": "73.19679"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85598,
+    "city_name": "Mardan",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.19794",
+    "longitude": "72.04965"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85610,
+    "city_name": "Mingora",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.7795",
+    "longitude": "72.36265"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85644,
+    "city_name": "Noorabad",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.25195",
+    "longitude": "71.96656"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85646,
+    "city_name": "Nowshera",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.01583",
+    "longitude": "71.98123"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85647,
+    "city_name": "Nowshera Cantonment",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "33.99829",
+    "longitude": "71.99834"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85652,
+    "city_name": "Pabbi",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.00968",
+    "longitude": "71.79445"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85654,
+    "city_name": "Paharpur",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "32.10502",
+    "longitude": "70.97055"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85661,
+    "city_name": "Peshawar",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.008",
+    "longitude": "71.57849"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85686,
+    "city_name": "Risalpur Cantonment",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.06048",
+    "longitude": "71.99276"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85700,
+    "city_name": "Sarai Naurang",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "32.82581",
+    "longitude": "70.78107"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85705,
+    "city_name": "Shabqadar",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.21599",
+    "longitude": "71.5548"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85716,
+    "city_name": "Shingli Bala",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.67872",
+    "longitude": "72.98491"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85718,
+    "city_name": "Shorkot",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "31.91023",
+    "longitude": "70.87757"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85733,
+    "city_name": "Swabi",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.12018",
+    "longitude": "72.46982"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85745,
+    "city_name": "Tangi",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.3009",
+    "longitude": "71.65238"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85747,
+    "city_name": "Tank",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "32.21707",
+    "longitude": "70.38315"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85749,
+    "city_name": "Thal",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "35.47836",
+    "longitude": "72.24383"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85754,
+    "city_name": "Topi",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.07034",
+    "longitude": "72.62147"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85759,
+    "city_name": "Upper Dir",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "35.2074",
+    "longitude": "71.8768"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85762,
+    "city_name": "Utmanzai",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.18775",
+    "longitude": "71.76274"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85770,
+    "city_name": "Zaida",
+    "state_id": 3171,
+    "state_name": "Khyber Pakhtunkhwa",
+    "latitude": "34.0595",
+    "longitude": "72.4669"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85332,
+    "city_name": "Ahmadpur Sial",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.67791",
+    "longitude": "71.74344"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85331,
+    "city_name": "Ahmedpur East",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.14269",
+    "longitude": "71.25771"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85335,
+    "city_name": "Alipur Chatha",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.38242",
+    "longitude": "70.91106"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85339,
+    "city_name": "Arifwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.29058",
+    "longitude": "73.06574"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85341,
+    "city_name": "Attock Tehsil",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.76671",
+    "longitude": "72.35977"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85343,
+    "city_name": "Baddomalhi",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.99042",
+    "longitude": "74.6641"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85347,
+    "city_name": "Bahawalnagar",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.99835",
+    "longitude": "73.25272"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85348,
+    "city_name": "Bahawalpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.39779",
+    "longitude": "71.6752"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85349,
+    "city_name": "Bakhri Ahmad Khan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.73586",
+    "longitude": "70.83796"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85354,
+    "city_name": "Basirpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.57759",
+    "longitude": "73.83912"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85355,
+    "city_name": "Basti Dosa",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.78769",
+    "longitude": "70.86853"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85359,
+    "city_name": "Begowala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.43816",
+    "longitude": "74.26794"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85363,
+    "city_name": "Bhakkar",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.62685",
+    "longitude": "71.06471"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85364,
+    "city_name": "Bhalwal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.26576",
+    "longitude": "72.89809"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85366,
+    "city_name": "Bhawana",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.56884",
+    "longitude": "72.64917"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85367,
+    "city_name": "Bhera",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.48206",
+    "longitude": "72.90865"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85371,
+    "city_name": "Bhopalwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.42968",
+    "longitude": "74.3635"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85376,
+    "city_name": "Burewala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.16667",
+    "longitude": "72.65"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85378,
+    "city_name": "Chak Azam Saffo",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.75202",
+    "longitude": "73.02834"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85380,
+    "city_name": "Chak Jhumra",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.56808",
+    "longitude": "73.18317"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85381,
+    "city_name": "Chak One Hundred Twenty Nine Left",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.42919",
+    "longitude": "73.04522"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85382,
+    "city_name": "Chak Thirty-one -Eleven Left",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.42388",
+    "longitude": "72.69737"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85383,
+    "city_name": "Chak Two Hundred Forty-Nine TDA",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.17772",
+    "longitude": "71.2048"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85384,
+    "city_name": "Chakwal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.93286",
+    "longitude": "72.85394"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85388,
+    "city_name": "Chawinda",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.34434",
+    "longitude": "74.70507"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85392,
+    "city_name": "Chichawatni",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.5301",
+    "longitude": "72.69155"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85393,
+    "city_name": "Chiniot",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.72091",
+    "longitude": "72.97836"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85394,
+    "city_name": "Chishtian",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.79713",
+    "longitude": "72.85772"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85396,
+    "city_name": "Choa Saidanshah",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.71962",
+    "longitude": "72.98625"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143765,
+    "city_name": "Chuhar Kana",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.75",
+    "longitude": "73.8"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85400,
+    "city_name": "Chunian",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.96621",
+    "longitude": "73.97908"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85404,
+    "city_name": "Daira Din Panah",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.57053",
+    "longitude": "70.93722"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85405,
+    "city_name": "Dajal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.55769",
+    "longitude": "70.37614"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85407,
+    "city_name": "Dandot RS",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.64167",
+    "longitude": "72.975"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85409,
+    "city_name": "Darya Khan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.78447",
+    "longitude": "71.10197"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85411,
+    "city_name": "Daska",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.32422",
+    "longitude": "74.35039"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143767,
+    "city_name": "Daud Khel",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.87498",
+    "longitude": "71.57013"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85414,
+    "city_name": "Daultala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.19282",
+    "longitude": "73.14099"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85418,
+    "city_name": "Dera Ghazi Khan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.04587",
+    "longitude": "70.64029"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85421,
+    "city_name": "Dhanot",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.57991",
+    "longitude": "71.75213"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85422,
+    "city_name": "Dhaunkal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.40613",
+    "longitude": "74.13706"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143766,
+    "city_name": "Dhok Awan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.84452",
+    "longitude": "72.52357"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85425,
+    "city_name": "Dijkot",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.21735",
+    "longitude": "72.99621"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85426,
+    "city_name": "Dinan Bashnoian Wala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.76584",
+    "longitude": "73.26557"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85427,
+    "city_name": "Dinga",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.64101",
+    "longitude": "73.72039"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85428,
+    "city_name": "Dipalpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.66984",
+    "longitude": "73.65306"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85433,
+    "city_name": "Dullewala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.83439",
+    "longitude": "71.43639"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85434,
+    "city_name": "Dunga Bunga",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.74975",
+    "longitude": "73.24294"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85435,
+    "city_name": "Dunyapur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.80275",
+    "longitude": "71.74344"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85436,
+    "city_name": "Eminabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.04237",
+    "longitude": "74.25996"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85437,
+    "city_name": "Faisalabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.41554",
+    "longitude": "73.08969"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85438,
+    "city_name": "Faqirwali",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.46799",
+    "longitude": "73.03489"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85439,
+    "city_name": "Faruka",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.88642",
+    "longitude": "72.41362"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85440,
+    "city_name": "Fazilpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.17629",
+    "longitude": "75.06583"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143768,
+    "city_name": "Ferozewala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.3",
+    "longitude": "70.43333333"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85441,
+    "city_name": "Fort Abbas",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.19344",
+    "longitude": "72.85525"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85444,
+    "city_name": "Garh Maharaja",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.83383",
+    "longitude": "71.90491"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85451,
+    "city_name": "Gojra",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.14926",
+    "longitude": "72.68323"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85455,
+    "city_name": "Gujar Khan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.25411",
+    "longitude": "73.30433"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85456,
+    "city_name": "Gujranwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.15567",
+    "longitude": "74.18705"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143769,
+    "city_name": "Gujranwala Division",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.45",
+    "longitude": "74.13333"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85457,
+    "city_name": "Gujrat",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.5742",
+    "longitude": "74.07542"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85460,
+    "city_name": "Hadali",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.64043",
+    "longitude": "74.56898"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85461,
+    "city_name": "Hafizabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.07095",
+    "longitude": "73.68802"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85466,
+    "city_name": "Harnoli",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.27871",
+    "longitude": "71.55429"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85467,
+    "city_name": "Harunabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.61206",
+    "longitude": "73.13802"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143770,
+    "city_name": "Hasan Abdal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.81948611",
+    "longitude": "72.68902778"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85468,
+    "city_name": "Hasilpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.69221",
+    "longitude": "72.54566"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85469,
+    "city_name": "Haveli Lakha",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.45097",
+    "longitude": "73.69371"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85471,
+    "city_name": "Hazro",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.9099",
+    "longitude": "72.49179"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85473,
+    "city_name": "Hujra Shah Muqeem",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.74168",
+    "longitude": "73.82327"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85478,
+    "city_name": "Jahanian Shah",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.80541",
+    "longitude": "72.2774"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85479,
+    "city_name": "Jalalpur Jattan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.64118",
+    "longitude": "74.20561"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85480,
+    "city_name": "Jalalpur Pirwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.5051",
+    "longitude": "71.22202"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85481,
+    "city_name": "Jampur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.64235",
+    "longitude": "70.59518"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85483,
+    "city_name": "Jand",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.43304",
+    "longitude": "72.01877"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85484,
+    "city_name": "Jandiala Sher Khan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.82098",
+    "longitude": "73.91815"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85485,
+    "city_name": "Jaranwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.3332",
+    "longitude": "73.41868"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85487,
+    "city_name": "Jatoi Shimali",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.51827",
+    "longitude": "70.84474"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85488,
+    "city_name": "Jauharabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.29016",
+    "longitude": "72.28182"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85490,
+    "city_name": "Jhang",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.30568",
+    "longitude": "72.32594"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85491,
+    "city_name": "Jhang Sadar",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.26981",
+    "longitude": "72.31687"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85492,
+    "city_name": "Jhawarian",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.36192",
+    "longitude": "72.62275"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85493,
+    "city_name": "Jhelum",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.93448",
+    "longitude": "73.73102"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85499,
+    "city_name": "Kabirwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.40472",
+    "longitude": "71.86269"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85501,
+    "city_name": "Kahna Nau",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.36709",
+    "longitude": "74.36899"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85503,
+    "city_name": "Kahuta",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.59183",
+    "longitude": "73.38736"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85505,
+    "city_name": "Kalabagh",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.96164",
+    "longitude": "71.54638"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85506,
+    "city_name": "Kalaswala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.20081",
+    "longitude": "74.64858"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85508,
+    "city_name": "Kaleke Mandi",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.97597",
+    "longitude": "73.59999"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85509,
+    "city_name": "Kallar Kahar",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.77998",
+    "longitude": "72.69793"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85510,
+    "city_name": "Kalur Kot",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.15512",
+    "longitude": "71.26631"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85512,
+    "city_name": "Kamalia",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.72708",
+    "longitude": "72.64607"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85513,
+    "city_name": "Kamar Mushani",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.84318",
+    "longitude": "71.36192"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85515,
+    "city_name": "Kamoke",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.97526",
+    "longitude": "74.22304"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85516,
+    "city_name": "Kamra",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.74698",
+    "longitude": "73.51229"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85520,
+    "city_name": "Kanganpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.76468",
+    "longitude": "74.12286"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85525,
+    "city_name": "Karor",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.2246",
+    "longitude": "70.95153"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85527,
+    "city_name": "Kasur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.11866",
+    "longitude": "74.45025"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85528,
+    "city_name": "Keshupur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.26",
+    "longitude": "72.5"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85535,
+    "city_name": "Khairpur Tamiwali",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.58139",
+    "longitude": "72.23804"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85537,
+    "city_name": "Khandowa",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.74255",
+    "longitude": "72.73478"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85538,
+    "city_name": "Khanewal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.30173",
+    "longitude": "71.93212"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85539,
+    "city_name": "Khanga Dogran",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.83294",
+    "longitude": "73.62213"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85540,
+    "city_name": "Khangarh",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.91446",
+    "longitude": "71.16067"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85541,
+    "city_name": "Khanpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "28.64739",
+    "longitude": "70.65694"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85544,
+    "city_name": "Kharian",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.81612",
+    "longitude": "73.88697"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85545,
+    "city_name": "Khewra",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.6491",
+    "longitude": "73.01059"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85546,
+    "city_name": "Khurrianwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.49936",
+    "longitude": "73.26763"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85547,
+    "city_name": "Khushab",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.29667",
+    "longitude": "72.3525"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143771,
+    "city_name": "Kohror Pakka",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.62382",
+    "longitude": "71.91673"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85553,
+    "city_name": "Kot Addu Tehsil",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.46907",
+    "longitude": "70.96699"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85555,
+    "city_name": "Kot Ghulam Muhammad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.33311",
+    "longitude": "74.54694"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85557,
+    "city_name": "Kot Mumin",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.18843",
+    "longitude": "73.02987"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85558,
+    "city_name": "Kot Radha Kishan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.17068",
+    "longitude": "74.10126"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85559,
+    "city_name": "Kot Rajkour",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.41208",
+    "longitude": "74.62855"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85560,
+    "city_name": "Kot Samaba",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "28.55207",
+    "longitude": "70.46837"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85561,
+    "city_name": "Kot Sultan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.7737",
+    "longitude": "70.93125"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85564,
+    "city_name": "Kotli Loharan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.58893",
+    "longitude": "74.49466"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85567,
+    "city_name": "Kundian",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.45775",
+    "longitude": "71.47892"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85568,
+    "city_name": "Kunjah",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.52982",
+    "longitude": "73.97486"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85571,
+    "city_name": "Ladhewala Waraich",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.15692",
+    "longitude": "74.11564"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85572,
+    "city_name": "Lahore",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.558",
+    "longitude": "74.35071"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85575,
+    "city_name": "Lala Musa",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.70138",
+    "longitude": "73.95746"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85576,
+    "city_name": "Lalian",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.82462",
+    "longitude": "72.80116"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85580,
+    "city_name": "Layyah",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.96128",
+    "longitude": "70.93904"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85581,
+    "city_name": "Layyah District",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.968",
+    "longitude": "70.943"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85582,
+    "city_name": "Liliani",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.20393",
+    "longitude": "72.9512"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85583,
+    "city_name": "Lodhran",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.5339",
+    "longitude": "71.63244"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85588,
+    "city_name": "Mailsi",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.80123",
+    "longitude": "72.17398"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85589,
+    "city_name": "Malakwal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.55449",
+    "longitude": "73.21274"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85590,
+    "city_name": "Malakwal City",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.55492",
+    "longitude": "73.2122"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85592,
+    "city_name": "Mamu Kanjan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.83044",
+    "longitude": "72.79943"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85593,
+    "city_name": "Mananwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.58803",
+    "longitude": "73.68927"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85594,
+    "city_name": "Mandi Bahauddin",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.58704",
+    "longitude": "73.49123"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143772,
+    "city_name": "Mandi Bahauddin District",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.58333333",
+    "longitude": "73.5"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85595,
+    "city_name": "Mangla",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.89306",
+    "longitude": "72.38167"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85596,
+    "city_name": "Mankera",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.38771",
+    "longitude": "71.44047"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85604,
+    "city_name": "Mehmand Chak",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.78518",
+    "longitude": "73.82306"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85606,
+    "city_name": "Mian Channun",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.44067",
+    "longitude": "72.35679"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85607,
+    "city_name": "Mianke Mor",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.2024",
+    "longitude": "73.94857"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85608,
+    "city_name": "Mianwali",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.57756",
+    "longitude": "71.52847"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85609,
+    "city_name": "Minchinabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.16356",
+    "longitude": "73.56858"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85619,
+    "city_name": "Mitha Tiwana",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.2454",
+    "longitude": "72.10615"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85622,
+    "city_name": "Moza Shahwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.80563",
+    "longitude": "70.84911"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85623,
+    "city_name": "Multan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.19679",
+    "longitude": "71.47824"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143773,
+    "city_name": "Multan District",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.08333333",
+    "longitude": "71.66666667"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85624,
+    "city_name": "Muridke",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.80258",
+    "longitude": "74.25772"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85625,
+    "city_name": "Murree",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.90836",
+    "longitude": "73.3903"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85626,
+    "city_name": "Mustafabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.89222",
+    "longitude": "73.49889"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85627,
+    "city_name": "Muzaffargarh",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.07258",
+    "longitude": "71.19379"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85631,
+    "city_name": "Nankana Sahib",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.4501",
+    "longitude": "73.70653"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85632,
+    "city_name": "Narang Mandi",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.90376",
+    "longitude": "74.51587"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85633,
+    "city_name": "Narowal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.10197",
+    "longitude": "74.87303"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85638,
+    "city_name": "Naushahra Virkan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.96258",
+    "longitude": "73.97117"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85641,
+    "city_name": "Nazir Town",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.30614",
+    "longitude": "73.4833"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85650,
+    "city_name": "Okara",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.81029",
+    "longitude": "73.45155"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143774,
+    "city_name": "Pakki Shagwanwali",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.79033",
+    "longitude": "70.87139"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85655,
+    "city_name": "Pakpattan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.34314",
+    "longitude": "73.38944"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85659,
+    "city_name": "Pasrur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.26286",
+    "longitude": "74.66327"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85660,
+    "city_name": "Pattoki",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.02021",
+    "longitude": "73.85333"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85662,
+    "city_name": "Phalia",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.43104",
+    "longitude": "73.579"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85663,
+    "city_name": "Pind Dadan Khan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.58662",
+    "longitude": "73.04456"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85664,
+    "city_name": "Pindi Bhattian",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.89844",
+    "longitude": "73.27339"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85665,
+    "city_name": "Pindi Gheb",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.24095",
+    "longitude": "72.2648"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85667,
+    "city_name": "Pir Mahal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.76663",
+    "longitude": "72.43455"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85670,
+    "city_name": "Qadirpur Ran",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.29184",
+    "longitude": "71.67164"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143775,
+    "city_name": "Qila Didar Singh",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.8",
+    "longitude": "74.1"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85389,
+    "city_name": "Rabwah",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.75511",
+    "longitude": "72.91403"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85674,
+    "city_name": "Rahim Yar Khan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "28.41987",
+    "longitude": "70.30345"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143776,
+    "city_name": "Rahimyar Khan District",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "28.4602",
+    "longitude": "70.52837"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85675,
+    "city_name": "Raiwind",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.24895",
+    "longitude": "74.21534"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85676,
+    "city_name": "Raja Jang",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.22078",
+    "longitude": "74.25483"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85677,
+    "city_name": "Rajanpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.10408",
+    "longitude": "70.32969"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85680,
+    "city_name": "Rasulnagar",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.32794",
+    "longitude": "73.7804"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85683,
+    "city_name": "Rawalpindi",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.59733",
+    "longitude": "73.0479"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85684,
+    "city_name": "Rawalpindi District",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.42987",
+    "longitude": "73.23092"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85685,
+    "city_name": "Renala Khurd",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.87878",
+    "longitude": "73.59857"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85688,
+    "city_name": "Rojhan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "28.68735",
+    "longitude": "69.9535"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85690,
+    "city_name": "Sadiqabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "28.3091",
+    "longitude": "70.12652"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85691,
+    "city_name": "Sahiwal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.66595",
+    "longitude": "73.10186"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85694,
+    "city_name": "Sambrial",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.47835",
+    "longitude": "74.35338"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85696,
+    "city_name": "Sangla Hill",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.71667",
+    "longitude": "73.38333"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85697,
+    "city_name": "Sanjwal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.76105",
+    "longitude": "72.43315"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85699,
+    "city_name": "Sarai Alamgir",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.90495",
+    "longitude": "73.75518"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85701,
+    "city_name": "Sarai Sidhu",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.59476",
+    "longitude": "71.9699"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85702,
+    "city_name": "Sargodha",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.08586",
+    "longitude": "72.67418"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143777,
+    "city_name": "Shahkot Tehsil",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.56166667",
+    "longitude": "73.4875"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85709,
+    "city_name": "Shahpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.2682",
+    "longitude": "72.46884"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85711,
+    "city_name": "Shahr Sultan",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.57517",
+    "longitude": "71.02209"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85712,
+    "city_name": "Shakargarh",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.26361",
+    "longitude": "75.16008"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85713,
+    "city_name": "Sharqpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.46116",
+    "longitude": "74.10091"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85714,
+    "city_name": "Sheikhupura",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.71287",
+    "longitude": "73.98556"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85708,
+    "city_name": "Shorkot",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.5",
+    "longitude": "72.4"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85719,
+    "city_name": "Shujaabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.88092",
+    "longitude": "71.29344"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85720,
+    "city_name": "Sialkot",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.49268",
+    "longitude": "74.53134"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85722,
+    "city_name": "Sillanwali",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.82539",
+    "longitude": "72.54064"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85726,
+    "city_name": "Sodhra",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.46211",
+    "longitude": "74.18207"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85729,
+    "city_name": "Sukheke Mandi",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.86541",
+    "longitude": "73.50875"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85732,
+    "city_name": "Surkhpur",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.71816",
+    "longitude": "74.44773"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85735,
+    "city_name": "Talagang",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.92766",
+    "longitude": "72.41594"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85736,
+    "city_name": "Talamba",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.52693",
+    "longitude": "72.24079"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85738,
+    "city_name": "Tandlianwala",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.03359",
+    "longitude": "73.13268"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85748,
+    "city_name": "Taunsa",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.70358",
+    "longitude": "70.65054"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85753,
+    "city_name": "Toba Tek Singh",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.97127",
+    "longitude": "72.48275"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143778,
+    "city_name": "Umerkot",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "25.36138889",
+    "longitude": "69.73611111"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85763,
+    "city_name": "Vihari",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "30.0445",
+    "longitude": "72.3556"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143779,
+    "city_name": "Wah",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "33.81",
+    "longitude": "72.70972222"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143780,
+    "city_name": "Warburton",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31.55",
+    "longitude": "73.8333"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85766,
+    "city_name": "Wazirabad",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.44324",
+    "longitude": "74.12"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 143781,
+    "city_name": "West Punjab",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "31",
+    "longitude": "72"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85767,
+    "city_name": "Yazman",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "29.12122",
+    "longitude": "71.74459"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85768,
+    "city_name": "Zafarwal",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "32.34464",
+    "longitude": "74.8999"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85769,
+    "city_name": "Zahir Pir",
+    "state_id": 3176,
+    "state_name": "Punjab",
+    "latitude": "28.81284",
+    "longitude": "70.52341"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85330,
+    "city_name": "Adilpur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.93677",
+    "longitude": "69.31941"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85344,
+    "city_name": "Badin",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.656",
+    "longitude": "68.837"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85346,
+    "city_name": "Bagarji",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.75431",
+    "longitude": "68.75866"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85350,
+    "city_name": "Bandhi",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.58761",
+    "longitude": "68.30215"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85361,
+    "city_name": "Berani",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.78497",
+    "longitude": "68.80754"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85365,
+    "city_name": "Bhan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.55831",
+    "longitude": "67.72139"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85369,
+    "city_name": "Bhiria",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.91041",
+    "longitude": "68.19466"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85370,
+    "city_name": "Bhit Shah",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.80565",
+    "longitude": "68.49143"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85372,
+    "city_name": "Bozdar Wada",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.183",
+    "longitude": "68.6358"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85373,
+    "city_name": "Bulri",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.86667",
+    "longitude": "68.33333"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85377,
+    "city_name": "Chak",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.85838",
+    "longitude": "68.83378"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85386,
+    "city_name": "Chamber",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.29362",
+    "longitude": "68.81176"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85391,
+    "city_name": "Chhor",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.5126",
+    "longitude": "69.78437"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85399,
+    "city_name": "Chuhar Jamali",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.3944",
+    "longitude": "67.99298"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85403,
+    "city_name": "Dadu",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.73033",
+    "longitude": "67.7769"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85408,
+    "city_name": "Daromehar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.79382",
+    "longitude": "68.17978"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85410,
+    "city_name": "Darya Khan Marri",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.67765",
+    "longitude": "68.28666"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85413,
+    "city_name": "Daulatpur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.50158",
+    "longitude": "67.97079"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85415,
+    "city_name": "Daur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.45528",
+    "longitude": "68.31835"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85423,
+    "city_name": "Dhoro Naro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.50484",
+    "longitude": "69.5709"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85424,
+    "city_name": "Digri",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.15657",
+    "longitude": "69.11098"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85429,
+    "city_name": "Diplo",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.46688",
+    "longitude": "69.58114"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85431,
+    "city_name": "Dokri",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.37421",
+    "longitude": "68.09715"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85443,
+    "city_name": "Gambat",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.3517",
+    "longitude": "68.5215"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85446,
+    "city_name": "Garhiyasin",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.90631",
+    "longitude": "68.5121"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85447,
+    "city_name": "Gharo",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.74182",
+    "longitude": "67.58534"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85448,
+    "city_name": "Ghauspur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.13882",
+    "longitude": "69.08245"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85449,
+    "city_name": "Ghotki",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.00437",
+    "longitude": "69.31569"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85452,
+    "city_name": "Goth Garelo",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.43521",
+    "longitude": "68.07572"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85453,
+    "city_name": "Goth Phulji",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.88099",
+    "longitude": "67.68239"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85454,
+    "city_name": "Goth Radhan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.19846",
+    "longitude": "67.95348"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85462,
+    "city_name": "Hala",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.81459",
+    "longitude": "68.42198"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85472,
+    "city_name": "Hingorja",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.21088",
+    "longitude": "68.41598"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85474,
+    "city_name": "Hyderabad",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.39242",
+    "longitude": "68.37366"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85476,
+    "city_name": "Islamkot",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.69904",
+    "longitude": "70.17982"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85477,
+    "city_name": "Jacobabad",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.28187",
+    "longitude": "68.43761"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85498,
+    "city_name": "J\u0101m S\u0101hib",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.29583",
+    "longitude": "68.62917"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85482,
+    "city_name": "Jamshoro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.43608",
+    "longitude": "68.28017"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85486,
+    "city_name": "Jati",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.35492",
+    "longitude": "68.26732"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85494,
+    "city_name": "Jhol",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.95533",
+    "longitude": "68.88871"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85496,
+    "city_name": "Johi",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.69225",
+    "longitude": "67.61431"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85500,
+    "city_name": "Kadhan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.48041",
+    "longitude": "68.98551"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85514,
+    "city_name": "Kambar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.58753",
+    "longitude": "68.00066"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85517,
+    "city_name": "Kandhkot",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.24574",
+    "longitude": "69.17974"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85518,
+    "city_name": "Kandiari",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.9155",
+    "longitude": "68.52193"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85519,
+    "city_name": "Kandiaro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.05918",
+    "longitude": "68.21022"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85521,
+    "city_name": "Karachi",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.8608",
+    "longitude": "67.0104"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85523,
+    "city_name": "Karaundi",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.89709",
+    "longitude": "68.40643"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85524,
+    "city_name": "Kario Ghanwar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.80817",
+    "longitude": "68.60483"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85526,
+    "city_name": "Kashmor",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.4326",
+    "longitude": "69.58364"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85529,
+    "city_name": "Keti Bandar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.14422",
+    "longitude": "67.45094"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85531,
+    "city_name": "Khadro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.14713",
+    "longitude": "68.71777"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85532,
+    "city_name": "Khairpur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.06437",
+    "longitude": "69.70363"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85533,
+    "city_name": "Khairpur Mir\u2019s",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.52948",
+    "longitude": "68.75915"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85534,
+    "city_name": "Khairpur Nathan Shah",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.09064",
+    "longitude": "67.73489"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85542,
+    "city_name": "Khanpur Mahar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.84088",
+    "longitude": "69.41302"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85554,
+    "city_name": "Kot Diji",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.34156",
+    "longitude": "68.70821"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85565,
+    "city_name": "Kotri",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.36566",
+    "longitude": "68.30831"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85569,
+    "city_name": "Kunri",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.17874",
+    "longitude": "69.56572"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85573,
+    "city_name": "Lakhi",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.84884",
+    "longitude": "68.69972"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85578,
+    "city_name": "Larkana",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.55898",
+    "longitude": "68.21204"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85587,
+    "city_name": "Madeji",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.75314",
+    "longitude": "68.45166"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85591,
+    "city_name": "Malir Cantonment",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.94343",
+    "longitude": "67.20591"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85601,
+    "city_name": "Matiari",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.59709",
+    "longitude": "68.4467"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85602,
+    "city_name": "Matli",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.0429",
+    "longitude": "68.65591"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85603,
+    "city_name": "Mehar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.18027",
+    "longitude": "67.82051"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85612,
+    "city_name": "Miro Khan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.75985",
+    "longitude": "68.09195"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85613,
+    "city_name": "Mirpur Bhtoro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.72852",
+    "longitude": "68.2601"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85615,
+    "city_name": "Mirpur Khas",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.5276",
+    "longitude": "69.01255"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85616,
+    "city_name": "Mirpur Mathelo",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.02136",
+    "longitude": "69.54914"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85617,
+    "city_name": "Mirpur Sakro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.54692",
+    "longitude": "67.62797"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85618,
+    "city_name": "Mirwah Gorchani",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.30981",
+    "longitude": "69.05019"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85620,
+    "city_name": "Mithi",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.73701",
+    "longitude": "69.79707"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85621,
+    "city_name": "Moro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.66317",
+    "longitude": "68.00016"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85630,
+    "city_name": "Nabisar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.06717",
+    "longitude": "69.6434"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85634,
+    "city_name": "Nasirabad",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.38137",
+    "longitude": "67.91644"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85636,
+    "city_name": "Naudero",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.66684",
+    "longitude": "68.3609"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85637,
+    "city_name": "Naukot",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.85822",
+    "longitude": "69.40153"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85639,
+    "city_name": "Naushahro Firoz",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.8401",
+    "longitude": "68.12265"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85640,
+    "city_name": "Nawabshah",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.23939",
+    "longitude": "68.40369"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85642,
+    "city_name": "New B\u0101d\u0101h",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.34167",
+    "longitude": "68.03194"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85653,
+    "city_name": "Pad Idan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.77455",
+    "longitude": "68.30094"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85657,
+    "city_name": "Pano Aqil",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.85619",
+    "longitude": "69.11111"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85666,
+    "city_name": "Pir Jo Goth",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.59178",
+    "longitude": "68.61848"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85669,
+    "city_name": "Pithoro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.51122",
+    "longitude": "69.37803"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85678,
+    "city_name": "Rajo Khanani",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.98391",
+    "longitude": "68.8537"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85679,
+    "city_name": "Ranipur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.2872",
+    "longitude": "68.50623"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85681,
+    "city_name": "Ratodero",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.80227",
+    "longitude": "68.28902"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85687,
+    "city_name": "Rohri",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.69203",
+    "longitude": "68.89503"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85689,
+    "city_name": "Rustam",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.96705",
+    "longitude": "68.80386"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85692,
+    "city_name": "Sakrand",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.13845",
+    "longitude": "68.27444"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85693,
+    "city_name": "Samaro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.28143",
+    "longitude": "69.39623"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85695,
+    "city_name": "Sanghar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.04694",
+    "longitude": "68.94917"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85698,
+    "city_name": "Sann",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.0403",
+    "longitude": "68.13763"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85703,
+    "city_name": "Sehwan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.42495",
+    "longitude": "67.86126"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85704,
+    "city_name": "Setharja Old",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.2127",
+    "longitude": "68.46883"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85706,
+    "city_name": "Shahdad Kot",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.84726",
+    "longitude": "67.90679"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85707,
+    "city_name": "Shahdadpur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.92539",
+    "longitude": "68.6228"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85710,
+    "city_name": "Shahpur Chakar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.15411",
+    "longitude": "68.65013"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85715,
+    "city_name": "Shikarpur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.95558",
+    "longitude": "68.63823"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85723,
+    "city_name": "Sinjhoro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.03008",
+    "longitude": "68.80867"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85734,
+    "city_name": "S\u012bta Road",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.03333",
+    "longitude": "67.85"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85725,
+    "city_name": "Sobhodero",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.30475",
+    "longitude": "68.39715"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85730,
+    "city_name": "Sukkur",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.70323",
+    "longitude": "68.85889"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85737,
+    "city_name": "Talhar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.88454",
+    "longitude": "68.81437"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85739,
+    "city_name": "Tando Adam",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.76818",
+    "longitude": "68.66196"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85740,
+    "city_name": "Tando Allahyar",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.4605",
+    "longitude": "68.71745"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85741,
+    "city_name": "Tando Bago",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.78914",
+    "longitude": "68.96535"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85742,
+    "city_name": "Tando Jam",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.42813",
+    "longitude": "68.52923"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85743,
+    "city_name": "Tando Mitha Khan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.99625",
+    "longitude": "69.20251"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85744,
+    "city_name": "Tando Muhammad Khan",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.12384",
+    "longitude": "68.53677"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85746,
+    "city_name": "Tangwani",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.27886",
+    "longitude": "68.9976"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85750,
+    "city_name": "Tharu Shah",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "26.9423",
+    "longitude": "68.11759"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85751,
+    "city_name": "Thatta",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "24.74745",
+    "longitude": "67.92353"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85752,
+    "city_name": "Thul",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.2403",
+    "longitude": "68.7755"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85756,
+    "city_name": "Ubauro",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "28.16429",
+    "longitude": "69.73114"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85757,
+    "city_name": "Umarkot",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.36329",
+    "longitude": "69.74184"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85758,
+    "city_name": "Umerkot District",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "25.37",
+    "longitude": "69.73"
+  },
+  {
+    "country_name": "Pakistan",
+    "city_id": 85765,
+    "city_name": "Warah",
+    "state_id": 3175,
+    "state_name": "Sindh",
+    "latitude": "27.44805",
+    "longitude": "67.79654"
+  }
+]

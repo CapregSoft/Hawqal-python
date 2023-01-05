@@ -84,10 +84,11 @@ class States:
         """
         if state_name == "":
             raise ValueError("state_name must be set")
-        query = "SELECT " + str(filter) + " FROM states"
         cursor = databaseConnection()
+        query = "SELECT " + str(filter) + " FROM states "
+
         if len(country_name) > 0 and len(state_name) > 0:
-            query = f'where country_name= "{string.capwords(country_name)}" and state_name= "{string.capwords(state_name)}"'
+            query = query + f'where country_name= "{string.capwords(country_name)}" and state_name= "{string.capwords(state_name)}"'
         elif len(country_name) > 0:
             query = query + \
                     f'where country_name= "{string.capwords(country_name)}"'
