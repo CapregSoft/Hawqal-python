@@ -10,5 +10,5 @@ class StateFilter:
         fields = ""
         for field in ['state_id', 'state_name', 'country_name', 'longitude', 'latitude']:
             if getattr(self, field):
-                fields = fields + field + ', '
-        return fields[:-2]
+                fields = fields + field + ','
+        return fields[:-1]

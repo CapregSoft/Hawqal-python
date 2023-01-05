@@ -13,5 +13,5 @@ class CityFilter:
         fields = ""
         for field in ['country_name', 'city_id', 'city_name', 'state_id', 'state_name', 'latitude', 'longitude']:
             if getattr(self, field):
-                fields = fields + field + ', '
-        return fields[:-2]
+                fields = fields + field + ","
+        return fields[:-1]
