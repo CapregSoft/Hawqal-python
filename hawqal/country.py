@@ -47,7 +47,6 @@ class Country:
         query = "SELECT " + str(filter)
 
         query = query + " FROM countries ORDER BY country_name ASC"
-        print(query)
         cursor.execute(query)
 
         return convertJson(cursor)
@@ -97,7 +96,7 @@ class Country:
 
         if country_name != "":
             query = query + \
-                    f" WHERE country_name = '{string.capwords(country_name)}' ORDER BY country_name ASC"
+                f" WHERE country_name = '{string.capwords(country_name)}' ORDER BY country_name ASC"
 
         cursor.execute(query)
 
