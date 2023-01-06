@@ -10,4 +10,5 @@ def convertJson(cursor):
         for index, value in zip(cols, row):
             data[index] = value
         jsonData.append(data)
-    return json.dumps(jsonData)
+    encodedData = json.dumps(jsonData, ensure_ascii=False)
+    return encodedData

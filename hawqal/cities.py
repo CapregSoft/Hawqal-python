@@ -49,12 +49,15 @@ class City:
         cursor = databaseConnection()
         query = "SELECT " + str(filter) + " FROM cities"
 
-        if country_name != "":
+        if country_name != "" and state_name != "":
             query = query + \
-                    f" WHERE country_name = '{string.capwords(country_name)}'"
+                f" WHERE country_name = '{string.capwords(country_name)}' AND state_name = '{string.capwords(state_name)}'"
+        elif country_name != "":
+            query = query + \
+                f" WHERE country_name = '{string.capwords(country_name)}'"
         elif state_name != "":
             query = query + \
-                    f" WHERE state_name = '{string.capwords(state_name)}'"
+                f" WHERE state_name = '{string.capwords(state_name)}'"
 
         cursor.execute(query)
 
@@ -110,13 +113,13 @@ class City:
         query = "SELECT " + str(filters) + " FROM CITIES "
         if country_name != "":
             query = query + \
-                    f"WHERE country_name='{string.capwords(country_name)}' AND city_name='{string.capwords(city_name)}' "
+                f"WHERE country_name='{string.capwords(country_name)}' AND city_name='{string.capwords(city_name)}' "
         elif state_name != "":
             query = query + \
-                    f"Where state_name='{string.capwords(state_name)}' and city_name='{string.capwords(city_name)}'"
+                f"Where state_name='{string.capwords(state_name)}' and city_name='{string.capwords(city_name)}'"
         elif country_name != "" and state_name != "":
             query = query + \
-                    f"Where state_name='{string.capwords(state_name)}' and country_name='{string.capwords(country_name)} and city_name='{string.capwords(city_name)}' '"
+                f"Where state_name='{string.capwords(state_name)}' and country_name='{string.capwords(country_name)} and city_name='{string.capwords(city_name)}' '"
         else:
             query = query + f"where city_name='{string.capwords(city_name)}'"
 
