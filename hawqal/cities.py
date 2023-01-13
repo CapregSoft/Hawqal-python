@@ -47,7 +47,11 @@ class City:
                 ```
         """
         cursor = databaseConnection()
-        query = "SELECT " + str(filter) + " FROM cities"
+        query = "SELECT "
+        if len(str(filter)) != 0:
+            query = query + str(filter) + " FROM cities"
+        else:
+            query = query + " * FROM cities"
 
         if country_name != "" and state_name != "":
             query = query + \
@@ -64,7 +68,7 @@ class City:
         return convertJson(cursor)
 
     @staticmethod
-    def getCity(country_name="", state_name="", city_name="", filters=CityFilter()):
+    def getCity(country_name="", state_name="", city_name="", filter=CityFilter()):
         """
         Description:\n
                 getCity function returns data of a single city JSON format
@@ -110,10 +114,14 @@ class City:
         cursor = databaseConnection()
         if city_name == "":
             raise ValueError("City name must be set")
-        query = "SELECT " + str(filters) + " FROM CITIES "
+        query = "SELECT "
+        if len(str(filter)) != 0:
+            query = "SELECT " + str(filter) + " FROM cities "
+        else:
+            query = query + " * FROM cities "
         if country_name != "":
             query = query + \
-                f"WHERE country_name='{string.capwords(country_name)}' AND city_name='{string.capwords(city_name)}' "
+                f" WHERE country_name='{string.capwords(country_name)}' AND city_name='{string.capwords(city_name)}' "
         elif state_name != "":
             query = query + \
                 f"Where state_name='{string.capwords(state_name)}' and city_name='{string.capwords(city_name)}'"

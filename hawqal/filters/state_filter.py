@@ -1,5 +1,5 @@
 class StateFilter:
-    def __init__(self, state_id=True, state_name=True, country_name=True, longitude=True, latitude=True):
+    def __init__(self, state_id=False, state_name=False, country_name=False, longitude=False, latitude=False):
         self.state_id = state_id
         self.state_name = state_name
         self.country_name = country_name

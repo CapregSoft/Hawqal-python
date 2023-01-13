@@ -39,12 +39,15 @@ class States:
                 ```\n
         """
         cursor = databaseConnection()
-
-        query = "SELECT " + str(filter) + " FROM states"
+        query = "SELECT "
+        if len(str(filter)) != 0:
+            query = query + str(filter) + " FROM states"
+        else:
+            query = query + " * FROM states"
 
         if len(country_name) > 0:
             query = query + \
-                    f' where country_name= "{string.capwords(country_name)}"'
+                f' where country_name= "{string.capwords(country_name)}"'
 
         cursor.execute(query)
 
@@ -85,16 +88,21 @@ class States:
         if state_name == "":
             raise ValueError("state_name must be set")
         cursor = databaseConnection()
-        query = "SELECT " + str(filter) + " FROM states "
+        query = "SELECT "
+        if len(str(filter)) != 0:
+            query = query + str(filter) + " FROM states "
+        else:
+            query = query + " * FROM states "
 
         if len(country_name) > 0 and len(state_name) > 0:
-            query = query + f'where country_name= "{string.capwords(country_name)}" and state_name= "{string.capwords(state_name)}"'
+            query = query + \
+                f'where country_name = "{string.capwords(country_name)}" and state_name = "{string.capwords(state_name)}"'
         elif len(country_name) > 0:
             query = query + \
-                    f'where country_name= "{string.capwords(country_name)}"'
+                f'where country_name = "{string.capwords(country_name)}"'
         elif len(state_name) > 0:
             query = query + \
-                    f'where state_name= "{string.capwords(state_name)}"'
-        query = query + " ORDER BY country_name"
+                f'where state_name = "{string.capwords(state_name)}"'
+        query = query + " ORDER BY country_name ASC"
         cursor.execute(query)
         return convertJson(cursor)

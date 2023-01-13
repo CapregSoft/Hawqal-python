@@ -1,5 +1,5 @@
 class CountryFilter:
-    def __init__(self, country_name=True, iso_code=True, phone_code=True, capital=True, currency=True, currency_name=True, currency_symbol=True, country_domain=True, region=True, subregion=True, timezone=True, zone_city=True, UTC=True, latitude=True, longitude=True):
+    def __init__(self, country_name=False, iso_code=False, phone_code=False, capital=False, currency=False, currency_name=False, currency_symbol=False, country_domain=False, region=False, subregion=False, timezone=False, zone_city=False, UTC=False, latitude=False, longitude=False):
         self.country_name = country_name
         self.longitude = longitude
         self.latitude = latitude

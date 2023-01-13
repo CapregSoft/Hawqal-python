@@ -44,9 +44,13 @@ class Country:
             ```
         """
         cursor = databaseConnection()
-        query = "SELECT " + str(filter)
+        query = "SELECT "
+        if len(str(filter)) != 0:
+            query = query + str(filter)
 
-        query = query + " FROM countries ORDER BY country_name ASC"
+            query = query + " FROM countries ORDER BY country_name ASC"
+        else:
+            query = query + " * FROM countries ORDER BY country_name ASC"
         cursor.execute(query)
 
         return convertJson(cursor)
@@ -92,7 +96,12 @@ class Country:
         if country_name == "":
             raise ValueError("country_name must be set")
 
-        query = "SELECT " + str(filter) + " FROM countries"
+        query = "SELECT "
+
+        if len(str(filter)) != 0:
+            query = query + str(filter) + " FROM countries "
+        else:
+            query = query + " * FROM countries "
 
         if country_name != "":
             query = query + \

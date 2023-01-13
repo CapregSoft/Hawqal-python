@@ -1,6 +1,6 @@
 class CityFilter:
-    def __init__(self, city_id=True, city_name=True, state_name=True, state_id=True, country_name=True, latitude=True,
-                 longitude=True):
+    def __init__(self, city_id=False, city_name=False, state_name=False, state_id=False, country_name=False, latitude=False,
+                 longitude=False):
         self.country_name = country_name
         self.longitude = longitude
         self.latitude = latitude
