@@ -1,77 +1,112 @@
-from dal.dao import Database
-from filter.filter import Filter
-import os
+from dal.dao import databaseConnection
+from Json.Query import convertJson
+from .filters.country_filter import CountryFilter
 import string
+import os
 
 
 class Country:
 
     @staticmethod
-    def getCountries(country="", meta={}):
+    def getCountries(filter=CountryFilter()):
         """
-            1. Countries function takes two parameters as input country name and filters.\n
-            2. By default, function will return countries name.\n
-            3. Additional fields are included in filter.\n
-            4. From filter of boolean TRUE fields will be included in output
-                e.g
-                    {
-                        "coordinates": True,
-                        "region": True,
-                        "currency": True,
-                        "timezone": True,
-                        "capital": True
-                    }
-
+        Description:\n
+                Get information about multiple countries from the database
+        Default: \n
+                By default, this method returns data about all countries, including the following fields:\n
+                - country_name\n
+                - iso_code\n
+                - phone_code\n
+                - capital\n
+                - currency\n
+                - currency_name\n
+                - currency_symbol\n
+                - country_domain\n
+                - region\n
+                - subregion\n
+                - timezone\n
+                - zone_city\n
+                - UTC\n
+                - latitude\n
+                - longitude\n
+        Args:\n
+                filters (CountryFilter): Optional : A class object specifying which fields to include in the results.\n
+        Returns:\n
+                list: A JSON object containing the requested information about the countries.\n
+        Example: \n
+            - To get all the countries
+                ```
+                hawqal.getCountries()
+                ```
+            - To apply filters and exclude longitude
+                ```
+            hawqal.getCountries(filter=hawqal.CountryFilter(longitude=False))
+            ```
         """
+        cursor = databaseConnection()
+        query = "SELECT "
+        if len(str(filter)) != 0:
+            query = query + str(filter)
 
-        file_name = os.path.join(os.path.dirname(
-            __file__), '..', 'database', 'hawqalDB.sqlite')
+            query = query + " FROM countries ORDER BY country_name ASC"
+        else:
+            query = query + " * FROM countries ORDER BY country_name ASC"
+        cursor.execute(query)
 
-        with open(file_name, 'r', encoding="utf8") as db:
-            database = Database(file_name).makeConnection()
-            cursor = database.cursor()
+        return convertJson(cursor)
 
-        if country == "" and len(meta) == 0:
-            data = cursor.execute(
-                f"SELECT country_name FROM countries ORDER BY country_name ASC")
-            return [country[0] for country in list(data)]
+    @staticmethod
+    def getCountry(country_name="", filter=CountryFilter()):
+        """
+        Description:\n
+                Get information about a specific country from the database.
+        Default:
+                By default, this method returns data about a country, including the following fields:\n
+                - country_name\n
+                - iso_code\n
+                - phone_code\n
+                - capital\n
+                - currency\n
+                - currency_name\n
+                - currency_symbol\n
+                - country_domain\n
+                - region\n
+                - subregion\n
+                - timezone\n
+                - zone_city\n
+                - UTC\n
+                - latitude\n
+                - longitude\n
+        Args:\n
+                    country_name (str): Required : Name of country
+                    filters (CityFilter): Optional : A class object specifying which fields to include in the results.\n
+        Returns:\n
+                    list: A JSON object containing the requested information about the country.\n
+        Example: \n
+            - To get the specific country data
+                    ```
+                      hawqal.getCountry(country_name="pakistan")
+                    ```
+            - To apply filters and exclude longitude
+                    ```
+                    hawqal.getCountry(country_name="pakistan",filter=hawqal.CountryFilter(longitude=False))
+                    ```
+        """
+        cursor = databaseConnection()
+        if country_name == "":
+            raise ValueError("country_name must be set")
 
-        elif type(country) == type({}):
-            if type(meta) == type(""):
-                if meta != "":
-                    selectedFields = Filter.CountryFilter(country)
-                    data = cursor.execute(
-                        f'SELECT country_name,{selectedFields} FROM countries WHERE country_name = "{string.capwords(meta)}"')
-                    return [list(country) for country in data][0]
-                else:
-                    selectedFields = Filter.CountryFilter(country)
-                    data = cursor.execute(
-                        f'SELECT country_name,{selectedFields} FROM countries')
-                    return [list(country) for country in data]
-            else:
-                meta, country = country, ""
-                selectedFields = Filter.CountryFilter(meta)
-                if len(selectedFields) != 0:
-                    data = cursor.execute(
-                        f'SELECT country_name,{selectedFields} FROM countries')
-                    return [list(country) for country in data]
-                else:
-                    data = cursor.execute(
-                        f'SELECT country_name FROM countries')
-                    return [country[0] for country in data]
+        query = "SELECT "
 
-        elif (country != "" and len(meta) > 0):
-            selectedFields = Filter.CountryFilter(meta)
-            if len(selectedFields) != 0:
-                data = cursor.execute(
-                    f'SELECT country_name,{selectedFields} FROM countries WHERE country_name = "{string.capwords(country)}"')
-                return [list(country) for country in data][0]
-            else:
-                data = cursor.execute(
-                    f'SELECT country_name FROM countries WHERE country_name = "{string.capwords(country)}"')
-                return [list(country) for country in data][0]
+        if len(str(filter)) != 0:
+            query = query + str(filter) + " FROM countries "
+        else:
+            query = query + " * FROM countries "
 
-        elif (country != "" and len(meta) == 0):
-            data = cursor.execute(
-                f'SELECT * FROM countries WHERE country_name = "{string.capwords(country)}"')
-            return [list(country) for country in data][0]
+        if country_name != "":
+            query = query + \
+                f" WHERE country_name = '{string.capwords(country_name)}' ORDER BY country_name ASC"
+
+        cursor.execute(query)
+
+        return convertJson(cursor)

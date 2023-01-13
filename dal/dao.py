@@ -1,13 +1,12 @@
 import sqlite3
-
-'''
-Connecting with database
-'''
+import os
 
 
-class Database:
-    def __init__(self, path):
-        self.databasePath = path
-
-    def makeConnection(self):
-        return sqlite3.connect(f"{self.databasePath}")
+def databaseConnection():
+    dirname = os.path.dirname(__file__)
+    file_name = os.path.join(dirname, '..', 'database', 'hawqalDB.sqlite')
+    with open(file_name, 'r', encoding="utf-8"):
+        database = sqlite3.connect(file_name)
+        cursor = database.cursor()
+        cursor.execute("pragma encoding")
+    return cursor
